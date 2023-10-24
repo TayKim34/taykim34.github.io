@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Project 1
-subtitle: I'm so good at this
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
-comments: true
+title: 2022 Case Study Healthy Eating
+subtitle: A responsive website and app to help users find and save recipes
+# gh-repo: daattali/beautiful-jekyll
+# gh-badge: [star, fork, follow]
+# tags: [test]
+comments: false
 ---
 
 {: .box-success}
