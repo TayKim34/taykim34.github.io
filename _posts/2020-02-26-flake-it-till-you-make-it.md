@@ -36,7 +36,6 @@ Austin, the gamer, often found himself getting more and more frustrated after fi
 
 Mary, on the other hand, isn’t active as the arcade. She drops her children off at the arcade with some money, so she can shop alone in peace. However, upon her return one of the children admits to making a mess on one of the machines. Petrified, she seeks out an attendant to inform them of the mess and to get their child to apologize, but can’t seem to find anyone. She decides to leave with her kids without informing anyone of the mess.
 
-### Competitive Audit
 
 <html>
 <head>
@@ -50,17 +49,15 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even){background-color:#D162A4}
-
 th{
-background-color: #04AA6D;
+background-color: #D162A4;
 color: white
 }
 </style>
 </head>
 <body>
 
-<h2>Competitive Audit</h2>
+<h3>Competitive Audit</h3>
 
 <table>
 <tr>
@@ -81,10 +78,7 @@ color: white
 <tr>
     <td>Confirmation as to how the user should expect to be contacted after submitting a support ticket</td>
 </tr>
-</table>
 
-</body>
-</html>
 
 ## Exploring the Design
 
