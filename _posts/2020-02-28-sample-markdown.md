@@ -2,6 +2,9 @@
 layout: post
 title: 2022 Case Study Healthy Eating
 subtitle: A responsive website and app to help users find and save recipes
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
 # tags: [test]
