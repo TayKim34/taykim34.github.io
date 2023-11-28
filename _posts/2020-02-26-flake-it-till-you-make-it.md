@@ -65,19 +65,16 @@ color: white
     <th>Competitor Weaknesses<th>
 </tr>
 <tr>
-    <td>Bright and inviting websites</td>
+    <td>Bright and inviting websites with simple nagivation. Simple and easy-to access forms on some sites.</td>
     <td>Many sites forms were poorly put together from misaligned boxes to inconsistent sizing</td>
 </tr>
 <tr>
-    <td>Simple and easy-to-access forms on some sites</td>
+    <td>Confirmation as to how the user should expect to be contacted after submitting a support ticket</td>
     <td>Most support features aren’t easy to find, most are found at the bottom of the page<td>
 </tr>
-<tr>
-    <td>Simple navigation</td>
-</tr>
-<tr>
-    <td>Confirmation as to how the user should expect to be contacted after submitting a support ticket</td>
-</tr>
+</body>
+</head>
+</html>
 
 
 ## Exploring the Design
