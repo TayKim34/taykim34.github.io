@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Arcade Support
+subtitle: A website feature that allows users to submit a support ticket regarding any problems found at the arcade.
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
