@@ -72,6 +72,7 @@ color: white
     <td>Confirmation as to how the user should expect to be contacted after submitting a support ticket</td>
     <td>Most support features aren’t easy to find, most are found at the bottom of the page<td>
 </tr>
+</table>
 </body>
 </head>
 </html>
