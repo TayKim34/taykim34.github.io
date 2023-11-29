@@ -43,10 +43,12 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-table [colspan="2"]{
+table{
     text-align: left;
     padding: 8px;
 }
+
+tr:nth-child(even){background-color: #f2f2f2}
 
 th{
 background-color: #D162A4;
@@ -60,8 +62,8 @@ color: white
 
 <table>
   <tr>
-    <th>Competitor Strengths<th>
-    <th>Competitor Weaknesses<th>
+    <th>Competitor Strengths</th>
+    <th>Competitor Weaknesses</th>
   </tr>
   <tr>
     <td>Strong use of navigation system using categories</td>
@@ -76,6 +78,7 @@ color: white
     <td>Many sites had too much information on the page</td>
   </tr>
 </table>
+</body>
 </html>
 
 

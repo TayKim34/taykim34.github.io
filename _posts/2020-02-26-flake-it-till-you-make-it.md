@@ -49,6 +49,8 @@ table tr td[colspan="2"]{
     padding: 8px;
 }
 
+tr:nth-child(even){background-color: #f2f2f2}
+
 th{
 background-color: #D162A4;
 color: white
@@ -61,8 +63,8 @@ color: white
 
 <table>
 <tr>
-    <th>Competitor Strengths<th>
-    <th>Competitor Weaknesses<th>
+    <th>Competitor Strengths</th>
+    <th>Competitor Weaknesses</th>
 </tr>
 
 <tr>
@@ -74,8 +76,8 @@ color: white
     <td>Confirmation as to how the user should expect to be contacted after submitting a support ticket</td>
     <td>Most support features aren’t easy to find, most are found at the bottom of the page<td>
 </tr>
-
 </table>
+</body>
 </html>
 
 
