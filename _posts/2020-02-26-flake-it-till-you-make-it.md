@@ -44,7 +44,7 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-table tr td{
+tr td{
     text-align: left;
     padding: 8px;
 }
