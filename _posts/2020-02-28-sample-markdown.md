@@ -59,24 +59,22 @@ color: white
 <h3>Competitive Audit</h3>
 
 <table>
-<tr>
+  <tr>
     <th>Competitor Strengths<th>
     <th>Competitor Weaknesses<th>
-</tr>
-
-<tr>
+  </tr>
+  <tr>
     <td>Strong use of navigation system using categories</td>
     <td>Most sites did not label food allergies</td>
-</tr>
-
-<tr>
+  </tr>
+  <tr>
     <td>Saving features being available on most websites</td>
     <td>Sites were often full of blogs that made navigating more challenging<td>
-</tr>
-
-<tr>
+  </tr>
+  <tr>
     <td>Saving feature being available when viewing full recipe</td>
     <td>Many sites had too much information on the page</td>
+  </tr>
 </table>
 </html>
 
