@@ -36,14 +36,51 @@ In order to understand the user better, I developed personas based on my user re
 
 To further expand on these personas and to make them feel more like real people, I developed user journey maps. This process allowed me to identify the importance of saving recipes and a grocery list. In order to make the project more manageable, I decided to focus on the importance of saving recipes for the time being.
 
-## Competitive Audit
+<html>
+<head>
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table tr td[colspan="3"]{
+    text-align: left;
+    padding: 8px;
+}
 
-Competitors 
-| Strengths | Weaknesses |
-| --- | ----------- |
-| Strong use of navigation systems using categories | Most sites did not label food allergies |
-| Saving features being available on most websites | Sites were often full of blogs that made navigating more challenging |
-| Saving feature being available when viewing full recipe | Many site had too much information on the page |
+th{
+background-color: #D162A4;
+color: white
+}
+</style>
+</head>
+<body>
+
+<h3>Competitive Audit</h3>
+
+<table>
+<tr>
+    <th>Competitor Strengths<th>
+    <th>Competitor Weaknesses<th>
+</tr>
+
+<tr>
+    <td>Strong use of navigation system using categories</td>
+    <td>Most sites did not label food allergies</td>
+</tr>
+
+<tr>
+    <td>Saving features being available on most websites</td>
+    <td>Sites were often full of blogs that made navigating more challenging<td>
+</tr>
+
+<tr>
+    <td>Saving feature being available when viewing full recipe</td>
+    <td>Many sites had too much information on the page</td>
+
+</table>
+</html>
+
 
 ## Exploring the Design
 
