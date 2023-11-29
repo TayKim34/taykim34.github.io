@@ -77,7 +77,6 @@ color: white
 <tr>
     <td>Saving feature being available when viewing full recipe</td>
     <td>Many sites had too much information on the page</td>
-
 </table>
 </html>
 
