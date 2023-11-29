@@ -43,7 +43,7 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-table tr td[colspan="2"]{
+table [colspan="2"]{
     text-align: left;
     padding: 8px;
 }
