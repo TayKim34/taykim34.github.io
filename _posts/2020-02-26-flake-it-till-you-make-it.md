@@ -38,7 +38,6 @@ Mary, on the other hand, isn’t active as the arcade. She drops her children of
 
 
 <html>
-    <div>
     <table>
         <tr>
             <th>Competitor Strengths</th>
@@ -53,7 +52,6 @@ Mary, on the other hand, isn’t active as the arcade. She drops her children of
             <td>Most support features aren’t easy to find, most are found at the bottom of the page<td>
         </tr>
     </table>
-    </div>
 </html>
 
 
