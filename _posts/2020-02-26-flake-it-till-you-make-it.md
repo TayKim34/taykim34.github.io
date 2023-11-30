@@ -38,7 +38,6 @@ Mary, on the other hand, isn’t active as the arcade. She drops her children of
 
 ----
 
-<html>
     <body>
     <table>
         <tr>
@@ -55,7 +54,6 @@ Mary, on the other hand, isn’t active as the arcade. She drops her children of
         </tr>
     </table>
     </body>
-</html>
 
 ---
 
