@@ -38,29 +38,6 @@ Mary, on the other hand, isn’t active as the arcade. She drops her children of
 
 
 <html>
-<head>
-<style>
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-tr td{
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even){background-color: #f2f2f2}
-
-th{
-background-color: #D162A4;
-color: white
-}
-</style>
-</head>
-<body>
-
-<h3>Competitive Audit</h3>
-
     <div>
     <table>
         <tr>
@@ -77,8 +54,6 @@ color: white
         </tr>
     </table>
     </div>
-
-</body>
 </html>
 
 
