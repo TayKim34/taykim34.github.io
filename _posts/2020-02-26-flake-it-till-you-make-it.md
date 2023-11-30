@@ -36,8 +36,8 @@ Austin, the gamer, often found himself getting more and more frustrated after fi
 
 Mary, on the other hand, isn’t active as the arcade. She drops her children off at the arcade with some money, so she can shop alone in peace. However, upon her return one of the children admits to making a mess on one of the machines. Petrified, she seeks out an attendant to inform them of the mess and to get their child to apologize, but can’t seem to find anyone. She decides to leave with her kids without informing anyone of the mess.
 
-
 <html>
+    <body>
     <table>
         <tr>
             <th>Competitor Strengths</th>
@@ -52,6 +52,7 @@ Mary, on the other hand, isn’t active as the arcade. She drops her children of
             <td>Most support features aren’t easy to find, most are found at the bottom of the page<td>
         </tr>
     </table>
+    </body>
 </html>
 
 
