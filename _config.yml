@@ -280,7 +280,7 @@ defaults:
 # Exclude these files from production site
 exclude:
   - tmp/
-  - /vendor
+  - vendor/
   - CHANGELOG.md
   - CNAME
   - Gemfile
