@@ -66,8 +66,7 @@
 .staticman-comments .form {
   position: relative;
 }
-/*
- Focus & active state
+/*Focus & active state
  ========================================================================== */
 .staticman-comments input:focus, .staticman-comments textarea:focus {
   border-color: #7a8288;
@@ -78,8 +77,7 @@
 .staticman-comments input[type="file"]:focus, .staticman-comments input[type="radio"]:focus, .staticman-comments input[type="checkbox"]:focus:focus {
   box-shadow: none;
 }
-/*
- Help text
+/*Help text
  ========================================================================== */
 .staticman-comments .form-text {
   color: #898c8e;
@@ -89,16 +87,14 @@
   margin-bottom: 1em;
   line-height: 1em;
 }
-/*
- .form-group
+/*.form-group
  ========================================================================== */
 .staticman-comments .form-group {
   margin-bottom: 5px;
   padding: 0;
   border-width: 0;
 }
-/*
- Comments
+/* Comments
  ========================================================================== */
 .staticman-comments .page__comments {
   float: left;
