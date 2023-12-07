@@ -1,1657 +1,0 @@
-Script started on Thu Nov 30 11:04:19 2023
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hsscripet  t/serverf [?2004l
-zsh: no such file or directory: script/server
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hsscript/setup[?2004l
-zsh: no such file or directory: script/setup
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hnnpm. install -g yarn[?2004l
-zsh: command not found: npm.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hiinstal \    i  bbrew iuns   nstall node[?2004l
-[34m==>[0m [1mDownloading https://formulae.brew.sh/api/formula.jws.json[0m
-                                                                            0.7%#########################################                                  57.2%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://formulae.brew.sh/api/cask.jws.json[0m
-####                                                                        6.1%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/node/manifests/21.2.0[0m
-#=#=#                                                                          ##############                                                             20.4%######################################################################### 100.0%
-[32m==>[0m [1mFetching dependencies for node: [32mbrotli[39m, [32mc-ares[39m, [32micu4c[39m, [32mlibnghttp2[39m, [32mlibuv[39m and [32mopenssl@3[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1[0m
-#=#=#                                                                          #######################################################                    76.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mbrotli[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:2a95140d611[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                                                                                                   0.7%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.23.0[0m
-#=#=#                                                                          #########                                                                  13.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mc-ares[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/c-ares/blobs/sha256:e9f95be6725[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                       #                                                                           1.6%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/73.2[0m
-#=#=#                                                                          #########################                                                  34.8%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32micu4c[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:734c09d5285c[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.0%##                                                                          3.8%#######################                                                    32.2%##########################################                                 58.5%#################################################################          90.3%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.58.0[0m
-#=#=#                                                                          ##############################################################             85.2%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibnghttp2[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:0aea68b[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    1.0%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.47.0[0m
-#=#=#                                                                          #########                                                                  13.2%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibuv[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:8ec04556c7b8[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                       ######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.0[0m
-#=#=#                                                                          ##O#- #                                                                        #######################################                                    53.6%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mopenssl@3[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:8590a80e[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.5%#################                                                          24.6%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mnode[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:169c259c897eb[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.0%######                                                                      8.4%############################################                               60.3%######################################################################### 100.0%
-[32m==>[0m [1mInstalling dependencies for node: [32mbrotli[39m, [32mc-ares[39m, [32micu4c[39m, [32mlibnghttp2[39m, [32mlibuv[39m and [32mopenssl@3[39m[0m
-[32m==>[0m [1mInstalling node dependency: [32mbrotli[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/565098509cdfa90593ec9a41b41239f073843f88caed60ddaa3e6194ac4defda--brotli-1.1.0-1.bottle_manifest.json
-[34m==>[0m [1mPouring brotli--1.1.0.arm64_sonoma.bottle.1.tar.gz[0m
-🍺  /opt/homebrew/Cellar/brotli/1.1.0: 24 files, 1013.4KB
-[32m==>[0m [1mInstalling node dependency: [32mc-ares[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.23.0[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/967e58ded2649eb25edcf92fef405be02728e266158966fc048f8fab78c87a2a--c-ares-1.23.0.bottle_manifest.json
-[34m==>[0m [1mPouring c-ares--1.23.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/c-ares/1.23.0: 154 files, 773.3KB
-[32m==>[0m [1mInstalling node dependency: [32micu4c[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/73.2[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/2e5082de52a2c85ae665e51f8d0de0651611397cb02f4b4e2bb37898ba52a629--icu4c-73.2.bottle_manifest.json
-[34m==>[0m [1mPouring icu4c--73.2.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/icu4c/73.2: 268 files, 80.2MB
-[32m==>[0m [1mInstalling node dependency: [32mlibnghttp2[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.58.0[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/9b2081d73959d4308c84740344d5f8169bbb9125dd76d20a71556a11a0171253--libnghttp2-1.58.0.bottle_manifest.json
-[34m==>[0m [1mPouring libnghttp2--1.58.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libnghttp2/1.58.0: 13 files, 739KB
-[32m==>[0m [1mInstalling node dependency: [32mlibuv[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.47.0[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/bfee09d0f61c35b1a86c5b7a0f6b2f9e0a8b18a81bbd065f6eea7054b543f3ea--libuv-1.47.0.bottle_manifest.json
-[34m==>[0m [1mPouring libuv--1.47.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libuv/1.47.0: 19 files, 1.1MB
-[32m==>[0m [1mInstalling node dependency: [32mopenssl@3[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.0[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/f4198e1c20f075acafccf58da7f0da06963e40006c4c127cbc667a85750039df--openssl@3-3.2.0.bottle_manifest.json
-[34m==>[0m [1mPouring openssl@3--3.2.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/openssl@3/3.2.0: 6,805 files, 31.9MB
-[32m==>[0m [1mInstalling [32mnode[39m[0m
-[34m==>[0m [1mPouring node--21.2.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/node/21.2.0: 2,205 files, 62.9MB
-[34m==>[0m [1mRunning `brew cleanup node`...[0m
-Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbrew install node[17Dnpm.[9C-g yarn[?2004l
-zsh: command not found: npm.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hnnpm install g-yarn[?2004l
-[?25l([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠦ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠦ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠦ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠇ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠇ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠇ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠇ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K[K[?25h[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m 
-[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m New [32mpatch[39m version of npm available! [31m10.2.3[39m -> [32m10.2.4[39m
-[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.2.4[39m
-[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m Run [32mnpm install -g npm@10.2.4[39m to update!
-[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m 
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m E404
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m Not Found - GET https://registry.npmjs.org/g-yarn - Not found
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m 
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m  'g-yarn@*' is not in this registry.
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m 
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m Note that you can also install from a
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m tarball, folder, http url, or git url.
-[0m
-[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in: /Users/kara/.npm/_logs/2023-11-30T19_06_06_558Z-debug-0.log
-[0m[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h[7mnpm install -g npm@10.2.4[27m[25D[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27mg[27m [27mn[27mp[27mm[27m@[27m1[27m0[27m.[27m2[27m.[27m4[?2004l
-[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m EEXIST
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mpath[0m /opt/homebrew/Cellar/node/21.2.0/bin/npm
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m EEXIST: file already exists
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m File exists: /opt/homebrew/Cellar/node/21.2.0/bin/npm
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Remove the existing file and try again, or run npm
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m with --force to overwrite files recklessly.
-[0m
-[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in: /Users/kara/.npm/_logs/2023-11-30T19_06_26_238Z-debug-0.log
-[0m[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbrew install[?2004l
-[1mUsage: brew[0m [1minstall[0m [[4moptions[0m] [4mformula[0m|[4mcask[0m [...]
-
-Install a [4mformula[0m or [4mcask[0m. Additional options specific to a [4mformula[0m may be
-appended to the command.
-
-Unless [1mHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK[0m is set, [1mbrew upgrade[0m or [1mbrew
-reinstall[0m will be run for outdated dependents and dependents with broken
-linkage, respectively.
-
-Unless [1mHOMEBREW_NO_INSTALL_CLEANUP[0m is set, [1mbrew cleanup[0m will then be run for
-the installed formulae or, every 30 days, for all formulae.
-
-Unless [1mHOMEBREW_NO_INSTALL_UPGRADE[0m is set, [1mbrew install[0m [4mformula[0m will
-upgrade [4mformula[0m if it is already installed but outdated.
-
-  -d, --debug                      If brewing fails, open an interactive
-                                   debugging session with access to IRB or a
-                                   shell inside the temporary build directory.
-  -f, --force                      Install formulae without checking for
-                                   previously installed keg-only or non-migrated
-                                   versions. When installing casks, overwrite
-                                   existing files (binaries and symlinks are
-                                   excluded, unless originally from the same
-                                   cask).
-  -v, --verbose                    Print the verification and post-install
-                                   steps.
-  -n, --dry-run                    Show what would be installed, but do not
-                                   actually install anything.
-      --formula, --formulae        Treat all named arguments as formulae.
-      --ignore-dependencies        An unsupported Homebrew development option to
-                                   skip installing any dependencies of any kind.
-                                   If the dependencies are not already present,
-                                   the formula will have issues. If you're not
-                                   developing Homebrew, consider adjusting your
-                                   PATH rather than using this option.
-      --only-dependencies          Install the dependencies with specified
-                                   options but do not install the formula
-                                   itself.
-      --cc                         Attempt to compile using the specified
-                                   [4mcompiler[0m, which should be the name of the
-                                   compiler's executable, e.g. [1mgcc-7[0m for GCC
-                                   7. In order to use LLVM's clang, specify
-                                   [1mllvm_clang[0m. To use the Apple-provided
-                                   clang, specify [1mclang[0m. This option will only
-                                   accept compilers that are provided by
-                                   Homebrew or bundled with macOS. Please do not
-                                   file issues if you encounter errors while
-                                   using this option.
-  -s, --build-from-source          Compile [4mformula[0m from source even if a
-                                   bottle is provided. Dependencies will still
-                                   be installed from bottles if they are
-                                   available.
-      --force-bottle               Install from a bottle if it exists for the
-                                   current or newest version of macOS, even if
-                                   it would not normally be used for
-                                   installation.
-      --include-test               Install testing dependencies required to run
-                                   [1mbrew test[0m [4mformula[0m.
-      --HEAD                       If [4mformula[0m defines it, install the HEAD
-                                   version, aka. main, trunk, unstable, master.
-      --fetch-HEAD                 Fetch the upstream repository to detect if
-                                   the HEAD installation of the formula is
-                                   outdated. Otherwise, the repository's HEAD
-                                   will only be checked for updates when a new
-                                   stable or development version has been
-                                   released.
-      --keep-tmp                   Retain the temporary files created during
-                                   installation.
-      --debug-symbols              Generate debug symbols on build. Source will
-                                   be retained in a cache directory.
-      --build-bottle               Prepare the formula for eventual bottling
-                                   during installation, skipping any
-                                   post-install steps.
-      --skip-post-install          Install but skip any post-install steps.
-      --bottle-arch                Optimise bottles for the specified
-                                   architecture rather than the oldest
-                                   architecture supported by the version of
-                                   macOS the bottles are built on.
-      --display-times              Print install times for each package at the
-                                   end of the run.
-  -i, --interactive                Download and patch [4mformula[0m, then open a
-                                   shell. This allows the user to run
-                                   [1m./configure --help[0m and otherwise determine
-                                   how to turn the software package into a
-                                   Homebrew package.
-  -g, --git                        Create a Git repository, useful for creating
-                                   patches to the software.
-      --overwrite                  Delete files that already exist in the prefix
-                                   while linking.
-      --cask, --casks              Treat all named arguments as casks.
-      --[no-]binaries              Disable/enable linking of helper executables
-                                   (default: enabled).
-      --require-sha                Require all casks to have a checksum.
-      --[no-]quarantine            Disable/enable quarantining of downloads
-                                   (default: enabled).
-      --adopt                      Adopt existing artifacts in the destination
-                                   that are identical to those being installed.
-                                   Cannot be combined with --force.
-      --skip-cask-deps             Skip installing cask dependencies.
-      --zap                        For use with [1mbrew reinstall --cask[0m. Remove
-                                   all files associated with a cask. [4mMay remove[0m
-                                   [4mfiles which are shared between applications.[0m
-      --appdir                     Target location for Applications (default:
-                                   [1m/Applications[0m).
-      --keyboard-layoutdir         Target location for Keyboard Layouts
-                                   (default: [1m/Library/Keyboard Layouts[0m).
-      --colorpickerdir             Target location for Color Pickers (default:
-                                   [1m~/Library/ColorPickers[0m).
-      --prefpanedir                Target location for Preference Panes
-                                   (default: [1m~/Library/PreferencePanes[0m).
-      --qlplugindir                Target location for QuickLook Plugins
-                                   (default: [1m~/Library/QuickLook[0m).
-      --mdimporterdir              Target location for Spotlight Plugins
-                                   (default: [1m~/Library/Spotlight[0m).
-      --dictionarydir              Target location for Dictionaries (default:
-                                   [1m~/Library/Dictionaries[0m).
-      --fontdir                    Target location for Fonts (default:
-                                   [1m~/Library/Fonts[0m).
-      --servicedir                 Target location for Services (default:
-                                   [1m~/Library/Services[0m).
-      --input-methoddir            Target location for Input Methods (default:
-                                   [1m~/Library/Input Methods[0m).
-      --internet-plugindir         Target location for Internet Plugins
-                                   (default: [1m~/Library/Internet Plug-Ins[0m).
-      --audio-unit-plugindir       Target location for Audio Unit Plugins
-                                   (default:
-                                   [1m~/Library/Audio/Plug-Ins/Components[0m).
-      --vst-plugindir              Target location for VST Plugins (default:
-                                   [1m~/Library/Audio/Plug-Ins/VST[0m).
-      --vst3-plugindir             Target location for VST3 Plugins (default:
-                                   [1m~/Library/Audio/Plug-Ins/VST3[0m).
-      --screen-saverdir            Target location for Screen Savers (default:
-                                   [1m~/Library/Screen Savers[0m).
-      --language                   Comma-separated list of language codes to
-                                   prefer for cask installation. The first
-                                   matching language is used, otherwise it
-                                   reverts to the cask's default language. The
-                                   default value is the language of your system.
-  -q, --quiet                      Make some output more quiet.
-  -h, --help                       Show this message.
-
-[31mError:[0m Invalid usage: This command requires at least 1 formula or cask argument.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbeb brew install g-yanr  rn      yarn[?2004l
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/yarn/manifests/1.22.21[0m
-#=#=#                                                                          ######################################################################### 100.0%
-[32m==>[0m [1mFetching [32myarn[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/yarn/blobs/sha256:321bf5ede7905[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                       #                                                                           1.5%######################################################################### 100.0%
-[34m==>[0m [1mPouring yarn--1.22.21.all.bottle.tar.gz[0m
-[34m==>[0m [1mCaveats[0m
-yarn requires a Node installation to function. You can install one with:
-  brew install node
-[34m==>[0m [1mSummary[0m
-🍺  /opt/homebrew/Cellar/yarn/1.22.21: 15 files, 5MB
-[34m==>[0m [1mRunning `brew cleanup yarn`...[0m
-Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbrew install yarn    [12Dnpm install -g npm@10.2.4[13Dg-yarn       [?2004l
-[?25l([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠦ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠦ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K([100;90m⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂⠂[0m) ⠧ idealTree:taykim34.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K[K[?25h[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m E404
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m Not Found - GET https://registry.npmjs.org/g-yarn - Not found
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m 
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m  'g-yarn@*' is not in this registry.
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m 
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m Note that you can also install from a
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m404[0m tarball, folder, http url, or git url.
-[0m
-[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in: /Users/kara/.npm/_logs/2023-11-30T19_07_18_451Z-debug-0.log
-[0m[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hyyarn add @rails/webpacker@5.4.2[?2004l
-[2K[1G[1myarn add v1.22.21[22m
-[2K[1G[34minfo[39m No lockfile found.
-(node:13969) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-(Use `node --trace-deprecation ...` to show where the warning was created)
-[2K[1G[2m[1/4][22m 🔍  Resolving packages...
-[1G⠁ [0K[1G⠂ @rails/webpacker@5.4.2[0K[1G⠄ @rails/webpacker@5.4.2[0K[1G⡀ @rails/webpacker@5.4.2[0K[1G⢀ @rails/webpacker@5.4.2[0K[1G⠠ @rails/webpacker@5.4.2[0K[1G⠐ @rails/webpacker@5.4.2[0K[1G⠈ @rails/webpacker@5.4.2[0K[1G⠁ @rails/webpacker@5.4.2[0K[1G⠂ @rails/webpacker@5.4.2[0K[1G⠄ @rails/webpacker@5.4.2[0K[1G⡀ webpack-sources@^1.4.3[0K[2K[1G[33mwarning[39m @rails/webpacker > @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
-[1G⢀ @babel/helper-plugin-utils@^7.8.0[0K[2K[1G[33mwarning[39m @rails/webpacker > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
-[1G⠠ semver@^6.3.1[0K[1G⠐ last-call-webpack-plugin@^3.0.0[0K[1G⠈ schema-utils@^1.0.0[0K[1G⠁ yargs@^13.3.2[0K[1G⠂ resolve@^1.1.7[0K[1G⠄ @babel/types@^7.22.15[0K[1G⡀ lru-cache@^6.0.0[0K[1G⢀ @babel/runtime@^7.8.4[0K[1G⠠ @babel/plugin-transform-optional-chaining@^7.23.3[0K[1G⠐ @babel/helper-plugin-utils@^7.8.0[0K[1G⠈ @babel/helper-plugin-utils@^7.22.5[0K[1G⠁ @babel/helper-plugin-utils@^7.22.5[0K[1G⠂ @babel/plugin-syntax-export-namespace-from@^7.8.3[0K[1G⠄ @babel/helper-validator-identifier@^7.22.20[0K[1G⡀ @babel/plugin-syntax-numeric-separator@^7.10.4[0K[1G⢀ @babel/helper-plugin-utils@^7.22.5[0K[1G⠠ @babel/helper-plugin-utils@^7.22.5[0K[1G⠐ @babel/helper-plugin-utils@^7.22.5[0K[1G⠈ postcss@^7.0.5[0K[1G⠁ brace-expansion@^1.1.7[0K[1G⠂ postcss-selector-parser@^5.0.0-rc.4[0K[1G⠄ postcss-values-parser@^2.0.0[0K[1G⡀ postcss@^7.0.2[0K[1G⢀ import-cwd@^2.0.0[0K[1G⠠ which@^1.2.9[0K[1G⠐ yargs-parser@^13.1.2[0K[1G⠈ to-regex@^3.0.2[0K[1G⠁ pify@^2.3.0[0K[1G⠂ @babel/types@^7.22.5[0K[1G⠄ find-up@^3.0.0[0K[1G⡀ @babel/types@^7.23.0[0K[1G⢀ @babel/helper-wrap-function@^7.22.20[0K[1G⠠ json-parse-better-errors@^1.0.1[0K[1G⠐ concat-map@0.0.1[0K[1G⠈ picocolors@^1.0.0[0K[1G⠁ uniq@^1.0.1[0K[2K[1G[33mwarning[39m @rails/webpacker > compression-webpack-plugin > cacache > @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
-[1G⠂ minipass@^3.0.0[0K[1G⠄ through2@^2.0.0[0K[1G⡀ source-map@^0.6.0[0K[1G⢀ which@^1.2.14[0K[1G⠠ decamelize@^1.2.0[0K[1G⠐ @xtuc/long@4.2.2[0K[1G⠈ util-deprecate@~1.0.1[0K[1G⠁ safe-regex@^1.1.0[0K[1G⠂ randomfill@^1.0.3[0K[1G⠄ inherits@2.0.3[0K[2K[1G[33mwarning[39m @rails/webpacker > webpack > watchpack > watchpack-chokidar2 > chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
-[2K[1G[33mwarning[39m @rails/webpacker > webpack > watchpack > watchpack-chokidar2 > chokidar > fsevents@1.2.13: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
-[1G⡀ hasown@^2.0.0[0K[1G⢀ function-bind@^1.1.2[0K[1G⠠ postcss-value-parser@^3.0.0[0K[1G⠐ uniqs@^2.0.0[0K[1G⠈ postcss-value-parser@^3.0.0[0K[1G⠁ to-regex-range@^2.1.0[0K[2K[1G[33mwarning[39m @rails/webpacker > postcss-preset-env > postcss-color-functional-notation > postcss-values-parser > flatten@1.0.3: flatten is deprecated in favor of utility frameworks such as lodash.
-[1G⠂ yallist@^4.0.0[0K[1G⠄ once@^1.3.1[0K[1G⡀ homedir-polyfill@^1.0.1[0K[1G⢀ strip-ansi@^5.0.0[0K[1G⠠ to-regex@^3.0.1[0K[2K[1G[33mwarning[39m @rails/webpacker > webpack > micromatch > snapdragon > source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
-[1G⠐ elliptic@^6.5.3[0K[1G⠈ file-uri-to-path@1.0.0[0K[1G⠁ regenerate@^1.4.2[0K[1G⠂ lodash.uniq@^4.5.0[0K[2K[1G[33mwarning[39m @rails/webpacker > optimize-css-assets-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
-[1G⠄ repeat-string@^1.6.1[0K[1G⡀ kind-of@^3.2.0[0K[1G⢀ is-extendable@^1.0.1[0K[2K[1G[33mwarning[39m @rails/webpacker > webpack > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
-[2K[1G[33mwarning[39m @rails/webpacker > webpack > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
-[2K[1G[33mwarning[39m @rails/webpacker > webpack > micromatch > snapdragon > source-map-resolve > source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
-[1G⠠ minimalistic-crypto-utils@^1.0.1[0K[1G⠐ simple-swizzle@^0.2.2[0K[1G⠈ q@^1.1.2[0K[2K[1G[33mwarning[39m @rails/webpacker > optimize-css-assets-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
-[1G⠁ isobject@^3.0.0[0K[1G⠂ source-map@^0.6.1[0K[1G⠄ which-typed-array@^1.1.13[0K[1G⡀ is-symbol@^1.0.2[0K[1G⢀ has-tostringtag@^1.0.0[0K[1G⠠ es-abstract@^1.22.1[0K[1G⠐ is-callable@^1.1.3[0K[1G⠈ has-tostringtag@^1.0.0[0K[1G⠁ is-typed-array@^1.1.10[0K[2K[1G[2K[1G[2m[2/4][22m 🚚  Fetching packages...
-[2K[1G[1G[-----------------------------------------------------------------------] 0/823[1G[#---------------------------------------------------------------------] 10/823[1G[##--------------------------------------------------------------------] 19/823[1G[##--------------------------------------------------------------------] 26/823[1G[###-------------------------------------------------------------------] 30/823[1G[###-------------------------------------------------------------------] 39/823[1G[####------------------------------------------------------------------] 45/823[1G[#####-----------------------------------------------------------------] 53/823[1G[#####-----------------------------------------------------------------] 64/823[1G[######----------------------------------------------------------------] 75/823[1G[#######---------------------------------------------------------------] 83/823[1G[########--------------------------------------------------------------] 91/823[1G[#########------------------------------------------------------------] 102/823[1G[#########------------------------------------------------------------] 112/823[1G[##########-----------------------------------------------------------] 121/823[1G[###########----------------------------------------------------------] 133/823[1G[############---------------------------------------------------------] 141/823[1G[#############--------------------------------------------------------] 152/823[1G[##############-------------------------------------------------------] 162/823[1G[###############------------------------------------------------------] 174/823[1G[################-----------------------------------------------------] 186/823[1G[#################----------------------------------------------------] 197/823[1G[#################----------------------------------------------------] 208/823[1G[##################---------------------------------------------------] 220/823[1G[####################-------------------------------------------------] 234/823[1G[#####################------------------------------------------------] 245/823[1G[######################-----------------------------------------------] 259/823[1G[#######################----------------------------------------------] 269/823[1G[########################---------------------------------------------] 282/823[1G[########################---------------------------------------------] 292/823[1G[#########################--------------------------------------------] 304/823[1G[###########################------------------------------------------] 318/823[1G[############################-----------------------------------------] 329/823[1G[#############################----------------------------------------] 341/823[1G[#############################----------------------------------------] 350/823[1G[##############################---------------------------------------] 362/823[1G[###############################--------------------------------------] 374/823[1G[################################-------------------------------------] 387/823[1G[#################################------------------------------------] 398/823[1G[##################################-----------------------------------] 409/823[1G[###################################----------------------------------] 421/823[1G[####################################---------------------------------] 430/823[1G[#####################################--------------------------------] 443/823[1G[######################################-------------------------------] 455/823[1G[#######################################------------------------------] 470/823[1G[########################################-----------------------------] 481/823[1G[##########################################---------------------------] 495/823[1G[###########################################--------------------------] 508/823[1G[############################################-------------------------] 521/823[1G[#############################################------------------------] 535/823[1G[##############################################-----------------------] 545/823[1G[###############################################----------------------] 560/823[1G[################################################---------------------] 573/823[1G[#################################################--------------------] 585/823[1G[##################################################-------------------] 596/823[1G[###################################################------------------] 610/823[1G[####################################################-----------------] 622/823[1G[#####################################################----------------] 634/823[1G[######################################################---------------] 643/823[1G[#######################################################--------------] 656/823[1G[########################################################-------------] 671/823[1G[##########################################################-----------] 687/823[1G[###########################################################----------] 698/823[1G[###########################################################----------] 709/823[1G[#############################################################--------] 723/823[1G[##############################################################-------] 735/823[1G[###############################################################------] 748/823[1G[################################################################-----] 761/823[1G[#################################################################----] 774/823[1G[##################################################################---] 783/823[1G[###################################################################--] 795/823[1G[####################################################################-] 806/823[1G[####################################################################-] 817/823[1G[#####################################################################] 822/823[2K[1G[2m[3/4][22m 🔗  Linking dependencies...
-[1G[#####################################################################] 823/823[2K[1G[2K[1G[1G[-----------------------------------------------------------------------] 0/866[2K[1G[2K[1G[1G[---------------------------------------------------------------------] 0/16659[1G[####---------------------------------------------------------------] 891/16659[1G[#######-----------------------------------------------------------] 1661/16659[1G[##########--------------------------------------------------------] 2537/16659[1G[##############----------------------------------------------------] 3423/16659[1G[#################-------------------------------------------------] 4317/16659[1G[#####################---------------------------------------------] 5215/16659[1G[######################--------------------------------------------] 5597/16659[1G[########################------------------------------------------] 6179/16659[1G[##########################----------------------------------------] 6654/16659[1G[###########################---------------------------------------] 6868/16659[1G[##############################------------------------------------] 7572/16659[1G[##################################--------------------------------] 8616/16659[1G[#####################################-----------------------------] 9362/16659[1G[########################################--------------------------] 9999/16659[1G[##########################################-----------------------] 10648/16659[1G[###########################################----------------------] 11111/16659[1G[############################################---------------------] 11385/16659[1G[#############################################--------------------] 11637/16659[1G[###############################################------------------] 12157/16659[1G[###################################################--------------] 13105/16659[1G[######################################################-----------] 13729/16659[1G[########################################################---------] 14402/16659[1G[###########################################################------] 15025/16659[1G[#############################################################----] 15556/16659[1G[##############################################################---] 15886/16659[1G[################################################################-] 16437/16659[2K[1G[2K[1G[1G[----------------------------------------------------------------------] 0/1602[1G[#####################################################--------------] 1260/1602[2K[1G[2m[4/4][22m 🔨  Building fresh packages...
-[1G[###################################################################] 1602/1602[2K[1G
-[1G⠁ [0K[1G[1A⠁ [0K[1G[1B[1G[2m[2/2][22m ⠂ core-js[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[2m[2/2][22m ⠄ core-js[0K[1G[1A[2m[1/2][22m ⠄ fsevents[0K[1G[1B[1G[2m[-/2][22m ⡀ waiting...[0K[1G[1A[2m[1/2][22m ⡀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⢀ waiting...[0K[1G[1A[2m[1/2][22m ⢀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠠ waiting...[0K[1G[1A[2m[1/2][22m ⠠ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠐ waiting...[0K[1G[1A[2m[1/2][22m ⠐ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠈ waiting...[0K[1G[1A[2m[1/2][22m ⠈ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠁ waiting...[0K[1G[1A[2m[1/2][22m ⠁ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠂ waiting...[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠄ waiting...[0K[1G[1A[2m[1/2][22m ⠄ fsevents[0K[1G[1B[1G[2m[-/2][22m ⡀ waiting...[0K[1G[1A[2m[1/2][22m ⡀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⢀ waiting...[0K[1G[1A[2m[1/2][22m ⢀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠠ waiting...[0K[1G[1A[2m[1/2][22m ⠠ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠐ waiting...[0K[1G[1A[2m[1/2][22m ⠐ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠈ waiting...[0K[1G[1A[2m[1/2][22m ⠈ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠁ waiting...[0K[1G[1A[2m[1/2][22m ⠁ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠂ waiting...[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠄ waiting...[0K[1G[1A[2m[1/2][22m ⠄ fsevents[0K[1G[1B[1G[2m[-/2][22m ⡀ waiting...[0K[1G[1A[2m[1/2][22m ⡀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⢀ waiting...[0K[1G[1A[2m[1/2][22m ⢀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠠ waiting...[0K[1G[1A[2m[1/2][22m ⠠ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠐ waiting...[0K[1G[1A[2m[1/2][22m ⠐ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠈ waiting...[0K[1G[1A[2m[1/2][22m ⠈ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠁ waiting...[0K[1G[1A[2m[1/2][22m ⠁ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠂ waiting...[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠄ waiting...[0K[1G[1A[2m[1/2][22m ⠄ fsevents[0K[1G[1B[1G[2m[-/2][22m ⡀ waiting...[0K[1G[1A[2m[1/2][22m ⡀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⢀ waiting...[0K[1G[1A[2m[1/2][22m ⢀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠠ waiting...[0K[1G[1A[2m[1/2][22m ⠠ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠐ waiting...[0K[1G[1A[2m[1/2][22m ⠐ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠈ waiting...[0K[1G[1A[2m[1/2][22m ⠈ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠁ waiting...[0K[1G[1A[2m[1/2][22m ⠁ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠂ waiting...[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠄ waiting...[0K[1G[1A[2m[1/2][22m ⠄ fsevents[0K[1G[1B[1G[2m[-/2][22m ⡀ waiting...[0K[1G[1A[2m[1/2][22m ⡀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⢀ waiting...[0K[1G[1A[2m[1/2][22m ⢀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠠ waiting...[0K[1G[1A[2m[1/2][22m ⠠ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠐ waiting...[0K[1G[1A[2m[1/2][22m ⠐ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠈ waiting...[0K[1G[1A[2m[1/2][22m ⠈ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠁ waiting...[0K[1G[1A[2m[1/2][22m ⠁ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠂ waiting...[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠄ waiting...[0K[1G[1A[2m[1/2][22m ⠄ fsevents[0K[1G[1B[1G[2m[-/2][22m ⡀ waiting...[0K[1G[1A[2m[1/2][22m ⡀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⢀ waiting...[0K[1G[1A[2m[1/2][22m ⢀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠠ waiting...[0K[1G[1A[2m[1/2][22m ⠠ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠐ waiting...[0K[1G[1A[2m[1/2][22m ⠐ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠈ waiting...[0K[1G[1A[2m[1/2][22m ⠈ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠁ waiting...[0K[1G[1A[2m[1/2][22m ⠁ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠂ waiting...[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠄ waiting...[0K[1G[1A[2m[1/2][22m ⠄ fsevents[0K[1G[1B[1G[2m[-/2][22m ⡀ waiting...[0K[1G[1A[2m[1/2][22m ⡀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⢀ waiting...[0K[1G[1A[2m[1/2][22m ⢀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠠ waiting...[0K[1G[1A[2m[1/2][22m ⠠ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠐ waiting...[0K[1G[1A[2m[1/2][22m ⠐ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠈ waiting...[0K[1G[1A[2m[1/2][22m ⠈ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠁ waiting...[0K[1G[1A[2m[1/2][22m ⠁ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠂ waiting...[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠄ waiting...[0K[1G[1A[2m[1/2][22m ⠄ fsevents[0K[1G[1B[1G[2m[-/2][22m ⡀ waiting...[0K[1G[1A[2m[1/2][22m ⡀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⢀ waiting...[0K[1G[1A[2m[1/2][22m ⢀ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠠ waiting...[0K[1G[1A[2m[1/2][22m ⠠ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠐ waiting...[0K[1G[1A[2m[1/2][22m ⠐ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠈ waiting...[0K[1G[1A[2m[1/2][22m ⠈ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠁ waiting...[0K[1G[1A[2m[1/2][22m ⠁ fsevents[0K[1G[1B[1G[2m[-/2][22m ⠂ waiting...[0K[1G[1A[2m[1/2][22m ⠂ fsevents[0K[1G[1B[1G[1A[2K[1B[2K[1G[1A[2K[1G[32msuccess[39m Saved lockfile.
-[2K[1G[32msuccess[39m Saved 564 new dependencies.
-[2K[1G[34minfo[39m Direct dependencies
-[2K[1G└─ @rails/webpacker@5.4.2
-[2K[1G[34minfo[39m All dependencies
-├─ @ampproject/remapping@2.2.1
-├─ @babel/code-frame@7.23.5
-├─ @babel/compat-data@7.23.5
-├─ @babel/core@7.23.5
-├─ @babel/helper-builder-binary-assignment-operator-visitor@7.22.15
-├─ @babel/helper-compilation-targets@7.22.15
-├─ @babel/helper-function-name@7.23.0
-├─ @babel/helper-member-expression-to-functions@7.23.0
-├─ @babel/helper-string-parser@7.23.4
-├─ @babel/helper-validator-option@7.23.5
-├─ @babel/helper-wrap-function@7.22.20
-├─ @babel/helpers@7.23.5
-├─ @babel/highlight@7.23.4
-├─ @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.23.3
-├─ @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.23.3
-├─ @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@7.23.3
-├─ @babel/plugin-proposal-class-properties@7.18.6
-├─ @babel/plugin-proposal-object-rest-spread@7.20.7
-├─ @babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2
-├─ @babel/plugin-syntax-class-properties@7.12.13
-├─ @babel/plugin-syntax-import-assertions@7.23.3
-├─ @babel/plugin-syntax-import-attributes@7.23.3
-├─ @babel/plugin-syntax-import-meta@7.10.4
-├─ @babel/plugin-syntax-top-level-await@7.14.5
-├─ @babel/plugin-syntax-unicode-sets-regex@7.18.6
-├─ @babel/plugin-transform-arrow-functions@7.23.3
-├─ @babel/plugin-transform-async-generator-functions@7.23.4
-├─ @babel/plugin-transform-async-to-generator@7.23.3
-├─ @babel/plugin-transform-block-scoped-functions@7.23.3
-├─ @babel/plugin-transform-block-scoping@7.23.4
-├─ @babel/plugin-transform-class-properties@7.23.3
-├─ @babel/plugin-transform-class-static-block@7.23.4
-├─ @babel/plugin-transform-classes@7.23.5
-├─ @babel/plugin-transform-computed-properties@7.23.3
-├─ @babel/plugin-transform-destructuring@7.23.3
-├─ @babel/plugin-transform-dotall-regex@7.23.3
-├─ @babel/plugin-transform-duplicate-keys@7.23.3
-├─ @babel/plugin-transform-dynamic-import@7.23.4
-├─ @babel/plugin-transform-exponentiation-operator@7.23.3
-├─ @babel/plugin-transform-export-namespace-from@7.23.4
-├─ @babel/plugin-transform-for-of@7.23.3
-├─ @babel/plugin-transform-function-name@7.23.3
-├─ @babel/plugin-transform-json-strings@7.23.4
-├─ @babel/plugin-transform-literals@7.23.3
-├─ @babel/plugin-transform-logical-assignment-operators@7.23.4
-├─ @babel/plugin-transform-member-expression-literals@7.23.3
-├─ @babel/plugin-transform-modules-amd@7.23.3
-├─ @babel/plugin-transform-modules-commonjs@7.23.3
-├─ @babel/plugin-transform-modules-systemjs@7.23.3
-├─ @babel/plugin-transform-modules-umd@7.23.3
-├─ @babel/plugin-transform-named-capturing-groups-regex@7.22.5
-├─ @babel/plugin-transform-new-target@7.23.3
-├─ @babel/plugin-transform-nullish-coalescing-operator@7.23.4
-├─ @babel/plugin-transform-numeric-separator@7.23.4
-├─ @babel/plugin-transform-object-rest-spread@7.23.4
-├─ @babel/plugin-transform-object-super@7.23.3
-├─ @babel/plugin-transform-optional-catch-binding@7.23.4
-├─ @babel/plugin-transform-optional-chaining@7.23.4
-├─ @babel/plugin-transform-private-methods@7.23.3
-├─ @babel/plugin-transform-private-property-in-object@7.23.4
-├─ @babel/plugin-transform-property-literals@7.23.3
-├─ @babel/plugin-transform-regenerator@7.23.3
-├─ @babel/plugin-transform-reserved-words@7.23.3
-├─ @babel/plugin-transform-runtime@7.23.4
-├─ @babel/plugin-transform-shorthand-properties@7.23.3
-├─ @babel/plugin-transform-spread@7.23.3
-├─ @babel/plugin-transform-sticky-regex@7.23.3
-├─ @babel/plugin-transform-template-literals@7.23.3
-├─ @babel/plugin-transform-typeof-symbol@7.23.3
-├─ @babel/plugin-transform-unicode-escapes@7.23.3
-├─ @babel/plugin-transform-unicode-property-regex@7.23.3
-├─ @babel/plugin-transform-unicode-regex@7.23.3
-├─ @babel/plugin-transform-unicode-sets-regex@7.23.3
-├─ @babel/preset-env@7.23.5
-├─ @babel/preset-modules@0.1.6-no-external-plugins
-├─ @babel/regjsgen@0.8.0
-├─ @babel/runtime@7.23.5
-├─ @babel/types@7.23.5
-├─ @gar/promisify@1.1.3
-├─ @jridgewell/resolve-uri@3.1.1
-├─ @jridgewell/set-array@1.1.2
-├─ @jridgewell/source-map@0.3.5
-├─ @jridgewell/sourcemap-codec@1.4.15
-├─ @npmcli/fs@1.1.1
-├─ @npmcli/move-file@1.1.2
-├─ @rails/webpacker@5.4.2
-├─ @types/json-schema@7.0.15
-├─ @types/node@20.10.1
-├─ @types/parse-json@4.0.2
-├─ @types/q@1.5.8
-├─ @webassemblyjs/floating-point-hex-parser@1.9.0
-├─ @webassemblyjs/helper-code-frame@1.9.0
-├─ @webassemblyjs/helper-fsm@1.9.0
-├─ @webassemblyjs/helper-wasm-section@1.9.0
-├─ @webassemblyjs/wasm-edit@1.9.0
-├─ @webassemblyjs/wasm-opt@1.9.0
-├─ @xtuc/ieee754@1.2.0
-├─ acorn@6.4.2
-├─ aggregate-error@3.1.0
-├─ ajv-errors@1.0.1
-├─ ajv-keywords@3.5.2
-├─ ajv@6.12.6
-├─ ansi-regex@4.1.1
-├─ ansi-styles@3.2.1
-├─ anymatch@3.1.3
-├─ argparse@1.0.10
-├─ arr-flatten@1.1.0
-├─ array.prototype.reduce@1.0.6
-├─ arraybuffer.prototype.slice@1.0.2
-├─ asn1.js@5.4.1
-├─ assert@1.5.1
-├─ assign-symbols@1.0.0
-├─ async-each@1.0.6
-├─ atob@2.1.2
-├─ autoprefixer@9.8.8
-├─ babel-loader@8.3.0
-├─ babel-plugin-dynamic-import-node@2.3.3
-├─ babel-plugin-macros@2.8.0
-├─ base@0.11.2
-├─ base64-js@1.5.1
-├─ binary-extensions@2.2.0
-├─ bindings@1.5.0
-├─ bluebird@3.7.2
-├─ boolbase@1.0.0
-├─ brace-expansion@1.1.11
-├─ braces@2.3.2
-├─ brorand@1.1.0
-├─ browserify-aes@1.2.0
-├─ browserify-cipher@1.0.1
-├─ browserify-des@1.0.2
-├─ browserify-rsa@4.1.0
-├─ browserify-sign@4.2.2
-├─ browserify-zlib@0.2.0
-├─ buffer-xor@1.0.3
-├─ buffer@4.9.2
-├─ builtin-status-codes@3.0.0
-├─ cache-base@1.0.1
-├─ caller-callsite@2.0.0
-├─ caller-path@2.0.0
-├─ callsites@2.0.0
-├─ camelcase@5.3.1
-├─ caniuse-lite@1.0.30001565
-├─ case-sensitive-paths-webpack-plugin@2.4.0
-├─ chokidar@3.5.3
-├─ chrome-trace-event@1.0.3
-├─ class-utils@0.3.6
-├─ clean-stack@2.2.0
-├─ cliui@5.0.0
-├─ coa@2.0.2
-├─ collection-visit@1.0.0
-├─ color-convert@1.9.3
-├─ color-name@1.1.3
-├─ color-string@1.9.1
-├─ color@3.2.1
-├─ compression-webpack-plugin@4.0.1
-├─ concat-map@0.0.1
-├─ concat-stream@1.6.2
-├─ console-browserify@1.2.0
-├─ constants-browserify@1.0.0
-├─ convert-source-map@2.0.0
-├─ copy-concurrently@1.0.5
-├─ copy-descriptor@0.1.1
-├─ core-js-compat@3.33.3
-├─ core-js@3.33.3
-├─ core-util-is@1.0.3
-├─ create-ecdh@4.0.4
-├─ create-hmac@1.1.7
-├─ cross-spawn@6.0.5
-├─ crypto-browserify@3.12.0
-├─ css-blank-pseudo@0.1.4
-├─ css-color-names@0.0.4
-├─ css-declaration-sorter@4.0.1
-├─ css-has-pseudo@0.10.0
-├─ css-loader@3.6.0
-├─ css-prefers-color-scheme@3.1.1
-├─ css-select-base-adapter@0.1.1
-├─ css-select@2.1.0
-├─ css-tree@1.0.0-alpha.37
-├─ css-what@3.4.2
-├─ cssdb@4.4.0
-├─ cssnano-preset-default@4.0.8
-├─ cssnano-util-raw-cache@4.0.1
-├─ cssnano-util-same-parent@4.0.1
-├─ cssnano@4.1.11
-├─ csso@4.2.0
-├─ cyclist@1.0.2
-├─ debug@4.3.4
-├─ decamelize@1.2.0
-├─ decode-uri-component@0.2.2
-├─ des.js@1.1.0
-├─ detect-file@1.0.0
-├─ diffie-hellman@5.0.3
-├─ dom-serializer@0.2.2
-├─ domain-browser@1.2.0
-├─ domelementtype@1.3.1
-├─ domutils@1.7.0
-├─ dot-prop@5.3.0
-├─ duplexify@3.7.1
-├─ electron-to-chromium@1.4.598
-├─ elliptic@6.5.4
-├─ emoji-regex@7.0.3
-├─ enhanced-resolve@4.5.0
-├─ entities@2.2.0
-├─ errno@0.1.8
-├─ es-array-method-boxes-properly@1.0.0
-├─ es-set-tostringtag@2.0.2
-├─ es-to-primitive@1.2.1
-├─ escalade@3.1.1
-├─ escape-string-regexp@1.0.5
-├─ eslint-scope@4.0.3
-├─ esprima@4.0.1
-├─ esrecurse@4.3.0
-├─ estraverse@4.3.0
-├─ esutils@2.0.3
-├─ events@3.3.0
-├─ expand-brackets@2.1.4
-├─ expand-tilde@2.0.2
-├─ extglob@2.0.4
-├─ fast-deep-equal@3.1.3
-├─ fast-json-stable-stringify@2.1.0
-├─ file-loader@6.2.0
-├─ file-uri-to-path@1.0.0
-├─ fill-range@4.0.0
-├─ findup-sync@3.0.0
-├─ flatted@3.2.9
-├─ flatten@1.0.3
-├─ flush-write-stream@1.1.1
-├─ for-in@1.0.2
-├─ from2@2.3.0
-├─ fs.realpath@1.0.0
-├─ fsevents@2.3.3
-├─ function.prototype.name@1.1.6
-├─ gensync@1.0.0-beta.2
-├─ get-caller-file@2.0.5
-├─ get-symbol-description@1.0.0
-├─ glob-parent@5.1.2
-├─ global-modules@2.0.0
-├─ global-prefix@3.0.0
-├─ globalthis@1.0.3
-├─ has-bigints@1.0.2
-├─ has-value@1.0.0
-├─ hash.js@1.1.7
-├─ hex-color-regex@1.1.0
-├─ hmac-drbg@1.0.1
-├─ hsl-regex@1.0.0
-├─ hsla-regex@1.0.0
-├─ https-browserify@1.0.0
-├─ icss-utils@4.1.1
-├─ ieee754@1.2.1
-├─ immutable@4.3.4
-├─ import-cwd@2.1.0
-├─ import-fresh@2.0.0
-├─ import-from@2.1.0
-├─ import-local@2.0.0
-├─ indent-string@4.0.0
-├─ infer-owner@1.0.4
-├─ inflight@1.0.6
-├─ ini@1.3.8
-├─ internal-slot@1.0.6
-├─ interpret@1.4.0
-├─ is-absolute-url@2.1.0
-├─ is-arrayish@0.2.1
-├─ is-bigint@1.0.4
-├─ is-binary-path@2.1.0
-├─ is-boolean-object@1.1.2
-├─ is-callable@1.2.7
-├─ is-color-stop@1.1.0
-├─ is-core-module@2.13.1
-├─ is-date-object@1.0.5
-├─ is-descriptor@1.0.3
-├─ is-directory@0.3.1
-├─ is-extglob@2.1.1
-├─ is-fullwidth-code-point@2.0.0
-├─ is-glob@4.0.3
-├─ is-negative-zero@2.0.2
-├─ is-number-object@1.0.7
-├─ is-obj@2.0.0
-├─ is-plain-obj@1.1.0
-├─ is-plain-object@2.0.4
-├─ is-resolvable@1.1.0
-├─ is-string@1.0.7
-├─ is-symbol@1.0.4
-├─ is-weakref@1.0.2
-├─ is-windows@1.0.2
-├─ is-wsl@1.1.0
-├─ isarray@1.0.0
-├─ isexe@2.0.0
-├─ jest-worker@26.6.2
-├─ js-tokens@4.0.0
-├─ jsesc@2.5.2
-├─ json-parse-better-errors@1.0.2
-├─ json-parse-even-better-errors@2.3.1
-├─ json-schema-traverse@0.4.1
-├─ json5@2.2.3
-├─ kind-of@3.2.2
-├─ klona@2.0.6
-├─ last-call-webpack-plugin@3.0.0
-├─ lines-and-columns@1.2.4
-├─ loader-runner@2.4.0
-├─ locate-path@3.0.0
-├─ lodash.debounce@4.0.8
-├─ lodash.get@4.4.2
-├─ lodash.has@4.5.2
-├─ lodash.memoize@4.1.2
-├─ lodash.uniq@4.5.0
-├─ lodash@4.17.21
-├─ make-dir@3.1.0
-├─ map-visit@1.0.0
-├─ mdn-data@2.0.4
-├─ memory-fs@0.4.1
-├─ merge-stream@2.0.0
-├─ micromatch@3.1.10
-├─ miller-rabin@4.0.1
-├─ mini-css-extract-plugin@0.9.0
-├─ minimatch@3.1.2
-├─ minimist@1.2.8
-├─ minipass-collect@1.0.2
-├─ minipass-flush@1.0.5
-├─ minipass-pipeline@1.2.4
-├─ minizlib@2.1.2
-├─ mississippi@3.0.0
-├─ mixin-deep@1.3.2
-├─ mkdirp@0.5.6
-├─ move-concurrently@1.0.1
-├─ ms@2.1.2
-├─ nan@2.18.0
-├─ nanomatch@1.2.13
-├─ neo-async@2.6.2
-├─ nice-try@1.0.5
-├─ node-libs-browser@2.2.1
-├─ node-releases@2.0.13
-├─ normalize-path@3.0.0
-├─ normalize-range@0.1.2
-├─ normalize-url@1.9.1
-├─ nth-check@1.0.2
-├─ num2fraction@1.2.2
-├─ object-assign@4.1.1
-├─ object-copy@0.1.0
-├─ object-inspect@1.13.1
-├─ object.getownpropertydescriptors@2.1.7
-├─ object.values@1.1.7
-├─ optimize-css-assets-webpack-plugin@5.0.8
-├─ os-browserify@0.3.0
-├─ p-limit@2.3.0
-├─ p-locate@3.0.0
-├─ p-map@4.0.0
-├─ p-try@2.2.0
-├─ pako@1.0.11
-├─ parallel-transform@1.2.0
-├─ parent-module@1.0.1
-├─ parse-asn1@5.1.6
-├─ parse-json@4.0.0
-├─ parse-passwd@1.0.0
-├─ pascalcase@0.1.1
-├─ path-browserify@0.0.1
-├─ path-complete-extname@1.0.0
-├─ path-dirname@1.0.2
-├─ path-exists@3.0.0
-├─ path-is-absolute@1.0.1
-├─ path-key@2.0.1
-├─ path-parse@1.0.7
-├─ path-type@4.0.0
-├─ picomatch@2.3.1
-├─ pify@2.3.0
-├─ pnp-webpack-plugin@1.7.0
-├─ posix-character-classes@0.1.1
-├─ postcss-attribute-case-insensitive@4.0.2
-├─ postcss-calc@7.0.5
-├─ postcss-color-functional-notation@2.0.1
-├─ postcss-color-gray@5.0.0
-├─ postcss-color-hex-alpha@5.0.3
-├─ postcss-color-mod-function@3.0.3
-├─ postcss-color-rebeccapurple@4.0.1
-├─ postcss-colormin@4.0.3
-├─ postcss-convert-values@4.0.1
-├─ postcss-custom-media@7.0.8
-├─ postcss-custom-properties@8.0.11
-├─ postcss-custom-selectors@5.1.2
-├─ postcss-dir-pseudo-class@5.0.0
-├─ postcss-discard-comments@4.0.2
-├─ postcss-discard-duplicates@4.0.2
-├─ postcss-discard-empty@4.0.1
-├─ postcss-discard-overridden@4.0.1
-├─ postcss-double-position-gradients@1.0.0
-├─ postcss-env-function@2.0.2
-├─ postcss-flexbugs-fixes@4.2.1
-├─ postcss-focus-visible@4.0.0
-├─ postcss-focus-within@3.0.0
-├─ postcss-font-variant@4.0.1
-├─ postcss-gap-properties@2.0.0
-├─ postcss-image-set-function@3.0.1
-├─ postcss-import@12.0.1
-├─ postcss-initial@3.0.4
-├─ postcss-lab-function@2.0.1
-├─ postcss-load-config@2.1.2
-├─ postcss-loader@3.0.0
-├─ postcss-logical@3.0.0
-├─ postcss-media-minmax@4.0.0
-├─ postcss-merge-longhand@4.0.11
-├─ postcss-merge-rules@4.0.3
-├─ postcss-minify-font-values@4.0.2
-├─ postcss-minify-gradients@4.0.2
-├─ postcss-minify-params@4.0.2
-├─ postcss-minify-selectors@4.0.2
-├─ postcss-modules-extract-imports@2.0.0
-├─ postcss-modules-local-by-default@3.0.3
-├─ postcss-modules-scope@2.2.0
-├─ postcss-modules-values@3.0.0
-├─ postcss-nesting@7.0.1
-├─ postcss-normalize-charset@4.0.1
-├─ postcss-normalize-display-values@4.0.2
-├─ postcss-normalize-positions@4.0.2
-├─ postcss-normalize-repeat-style@4.0.2
-├─ postcss-normalize-string@4.0.2
-├─ postcss-normalize-timing-functions@4.0.2
-├─ postcss-normalize-unicode@4.0.1
-├─ postcss-normalize-url@4.0.1
-├─ postcss-normalize-whitespace@4.0.2
-├─ postcss-ordered-values@4.1.2
-├─ postcss-overflow-shorthand@2.0.0
-├─ postcss-page-break@2.0.0
-├─ postcss-place@4.0.1
-├─ postcss-preset-env@6.7.2
-├─ postcss-pseudo-class-any-link@6.0.0
-├─ postcss-reduce-initial@4.0.3
-├─ postcss-reduce-transforms@4.0.2
-├─ postcss-replace-overflow-wrap@3.0.0
-├─ postcss-safe-parser@4.0.2
-├─ postcss-selector-matches@4.0.0
-├─ postcss-selector-not@4.0.1
-├─ postcss-svgo@4.0.3
-├─ postcss-unique-selectors@4.0.1
-├─ prepend-http@1.0.4
-├─ process-nextick-args@2.0.1
-├─ process@0.11.10
-├─ prr@1.0.1
-├─ public-encrypt@4.0.3
-├─ pump@3.0.0
-├─ pumpify@1.5.1
-├─ punycode@1.4.1
-├─ q@1.5.1
-├─ qs@6.11.2
-├─ query-string@4.3.4
-├─ querystring-es3@0.2.1
-├─ randomfill@1.0.4
-├─ read-cache@1.0.0
-├─ readable-stream@2.3.8
-├─ readdirp@3.6.0
-├─ regenerate-unicode-properties@10.1.1
-├─ regenerator-runtime@0.13.11
-├─ regenerator-transform@0.15.2
-├─ regexp.prototype.flags@1.5.1
-├─ regexpu-core@5.3.2
-├─ regjsparser@0.9.1
-├─ remove-trailing-separator@1.1.0
-├─ repeat-element@1.1.4
-├─ require-directory@2.1.1
-├─ require-main-filename@2.0.0
-├─ resolve-cwd@2.0.0
-├─ resolve-dir@1.0.1
-├─ resolve-url@0.2.1
-├─ resolve@1.22.8
-├─ ret@0.1.15
-├─ rgb-regex@1.0.1
-├─ rgba-regex@1.0.0
-├─ ripemd160@2.0.2
-├─ run-queue@1.0.3
-├─ safe-array-concat@1.0.1
-├─ safe-buffer@5.2.1
-├─ safe-regex-test@1.0.0
-├─ safer-buffer@2.1.2
-├─ sass-loader@10.1.1
-├─ sass@1.69.5
-├─ sax@1.2.4
-├─ set-blocking@2.0.0
-├─ set-function-length@1.1.1
-├─ set-function-name@2.0.1
-├─ set-value@2.0.1
-├─ setimmediate@1.0.5
-├─ shebang-command@1.2.0
-├─ shebang-regex@1.0.0
-├─ simple-swizzle@0.2.2
-├─ snapdragon-node@2.1.1
-├─ snapdragon-util@3.0.1
-├─ sort-keys@1.1.2
-├─ source-list-map@2.0.1
-├─ source-map-js@1.0.2
-├─ source-map-resolve@0.5.3
-├─ source-map-support@0.5.21
-├─ source-map-url@0.4.1
-├─ split-string@3.1.0
-├─ sprintf-js@1.0.3
-├─ ssri@8.0.1
-├─ stable@0.1.8
-├─ static-extend@0.1.2
-├─ stream-browserify@2.0.2
-├─ stream-each@1.2.3
-├─ stream-http@2.8.3
-├─ strict-uri-encode@1.1.0
-├─ string_decoder@1.3.0
-├─ string.prototype.trim@1.2.8
-├─ string.prototype.trimend@1.0.7
-├─ string.prototype.trimstart@1.0.7
-├─ strip-ansi@5.2.0
-├─ style-loader@1.3.0
-├─ stylehacks@4.0.3
-├─ supports-color@6.1.0
-├─ supports-preserve-symlinks-flag@1.0.0
-├─ svgo@1.3.2
-├─ tar@6.2.0
-├─ terser-webpack-plugin@4.2.3
-├─ terser@5.24.0
-├─ through2@2.0.5
-├─ timers-browserify@2.0.12
-├─ timsort@0.3.0
-├─ to-arraybuffer@1.0.1
-├─ to-fast-properties@2.0.0
-├─ to-object-path@0.3.0
-├─ to-regex-range@2.1.1
-├─ ts-pnp@1.2.0
-├─ tty-browserify@0.0.0
-├─ typed-array-buffer@1.0.0
-├─ typed-array-byte-length@1.0.0
-├─ typed-array-byte-offset@1.0.0
-├─ typed-array-length@1.0.4
-├─ typedarray@0.0.6
-├─ unbox-primitive@1.0.2
-├─ undici-types@5.26.5
-├─ unicode-canonical-property-names-ecmascript@2.0.0
-├─ unicode-match-property-ecmascript@2.0.0
-├─ unicode-match-property-value-ecmascript@2.1.0
-├─ unicode-property-aliases-ecmascript@2.1.0
-├─ union-value@1.0.1
-├─ unique-slug@2.0.2
-├─ unquote@1.1.1
-├─ unset-value@1.0.0
-├─ upath@1.2.0
-├─ update-browserslist-db@1.0.13
-├─ uri-js@4.4.1
-├─ urix@0.1.0
-├─ url@0.11.3
-├─ use@3.1.1
-├─ util-deprecate@1.0.2
-├─ util.promisify@1.0.1
-├─ util@0.11.1
-├─ v8-compile-cache@2.4.0
-├─ vendors@1.0.4
-├─ vm-browserify@1.1.2
-├─ watchpack-chokidar2@2.0.1
-├─ watchpack@1.7.5
-├─ webpack-assets-manifest@3.1.1
-├─ webpack-cli@3.3.12
-├─ webpack@4.47.0
-├─ which-boxed-primitive@1.0.2
-├─ which-module@2.0.1
-├─ which-typed-array@1.1.13
-├─ which@1.3.1
-├─ worker-farm@1.7.0
-├─ wrap-ansi@5.1.0
-├─ xtend@4.0.2
-├─ yaml@1.10.2
-├─ yargs-parser@13.1.2
-├─ yargs@13.3.2
-└─ yocto-queue@0.1.0
-[2K[1G✨  Done in 16.85s.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hyarn add @rails/webpacker@5.4.2[31D                               [31Dyarn add @rails/webpacker@5.4.2[31Dnpm install g-yarn             [13D[18Dbrew install yarn [?2004l
-[33mWarning:[0m yarn 1.22.21 is already installed and up-to-date.
-To reinstall 1.22.21, run:
-  brew reinstall yarn
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hsscript/server[?2004l
-zsh: no such file or directory: script/server
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbrew install ruby[?2004l
-[34m==>[0m [1mDownloading https://formulae.brew.sh/api/formula.jws.json[0m
-
-[34m==>[0m [1mDownloading https://formulae.brew.sh/api/cask.jws.json[0m
-
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/ruby/manifests/3.2.2_1[0m
-#=#=#                                                                          ####                                                                        5.7%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mruby[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/ruby/blobs/sha256:6a1a2f3c6404c[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.0%#######                                                                    10.9%######################################################                     74.4%######################################################################### 100.0%
-[34m==>[0m [1mPouring ruby--3.2.2_1.arm64_sonoma.bottle.tar.gz[0m
-[34m==>[0m [1mCaveats[0m
-ruby is keg-only, which means it was not symlinked into /opt/homebrew,
-because macOS already provides this software and installing another version in
-parallel can cause all kinds of trouble.
-
-If you need to have ruby first in your PATH, run:
-  echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
-
-For compilers to find ruby you may need to set:
-  export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
-  export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
-[34m==>[0m [1mSummary[0m
-🍺  /opt/homebrew/Cellar/ruby/3.2.2_1: 16,605 files, 48.3MB
-[34m==>[0m [1mRunning `brew cleanup ruby`...[0m
-Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbrew install ruby[17Dscript/server    [?2004l
-zsh: no such file or directory: script/server
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrubv  by -v[?2004l
-ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [arm64-darwin23]
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hruby -vscript/server[13Dbrew install ruby[17Dscript/server    [?2004l
-zsh: no such file or directory: script/server
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hxxcov de- -selecty  --install[?2004l
-xcode-select: note: Command line tools are already installed. Use "Software Update" in System Settings or the softwareupdate command line interface to install updates
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hssoftwareupdate[?2004l
-usage: softwareupdate <cmd> [<args> ...]
-
-** Manage Updates:
-	-l | --list		List all appropriate update labels (options:  --no-scan, --product-types)
-	-d | --download		Download Only
-	-i | --install		Install
-		<label> ...	specific updates
-		-a | --all		All appropriate updates
-		-R | --restart		Automatically restart (or shut down) if required to complete installation.
-		-r | --recommended	Only recommended updates
-		     --os-only	Only OS updates
-		     --safari-only	Only Safari updates
-		     --stdinpass	Password to authenticate as an owner. Apple Silicon only.
-		     --user	Local username to authenticate as an owner. Apple Silicon only.
-	--list-full-installers		List the available macOS Installers
-	--fetch-full-installer		Install the latest recommended macOS Installer
-		--full-installer-version	The version of macOS to install. Ex: --full-installer-version 10.15
-	--install-rosetta	Install Rosetta 2
-	--background		Trigger a background scan and update operation
-
-** Other Tools:
-	--dump-state		Log the internal state of the SU daemon to /var/log/install.log
-	--evaluate-products	Evaluate a list of product keys specified by the --products option 
-	--history		Show the install history.  By default, only displays updates installed by softwareupdate.  
-
-** Options:
-	--no-scan		Do not scan when listing or installing updates (use available updates previously scanned)
-	--product-types <type>		Limit a scan to a particular product type only - ignoring all others
-		Ex:  --product-types macOS  || --product-types macOS,Safari 
-	--products		A comma-separated (no spaces) list of product keys to operate on. 
-	--force			Force an operation to complete.  Use with --background to trigger a background scan regardless of "Automatically check" pref 
-	--agree-to-license		Agree to the software license agreement without user interaction.
-
-	--verbose		Enable verbose output
-	--help			Print this help
-
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hxx-code    x xcode-select --install[?2004l
-xcode-select: note: Command line tools are already installed. Use "Software Update" in System Settings or the softwareupdate command line interface to install updates
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbrewq  install postgresql[?2004l
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/postgresql/14/manifests/14.10_1[0m
-#=#=#                                                                          ##O#- #                                                                        ###                                                                         5.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching dependencies for postgresql@14: [32mkrb5[39m, [32mlz4[39m and [32mreadline[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.2[0m
-#=#=#                                                                          ################################                                           44.3%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mkrb5[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/krb5/blobs/sha256:2d4dc47f318eb[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.1%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.9.4[0m
-#=#=#                                                                          #######                                                                     9.9%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlz4[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:5a8b7116d978e4[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.3%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.7[0m
-#=#=#                                                                          #########                                                                  12.4%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mreadline[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:4b08134e7[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.2%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mpostgresql@14[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/postgresql/14/blobs/sha256:3dbb[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.0%#######                                                                    10.2%##########################                                                 36.7%##########################                                                 36.8%######################################################################### 100.0%
-[32m==>[0m [1mInstalling dependencies for postgresql@14: [32mkrb5[39m, [32mlz4[39m and [32mreadline[39m[0m
-[32m==>[0m [1mInstalling postgresql@14 dependency: [32mkrb5[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/krb5/manifests/1.21.2[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/1dac813e15dc58f7f64511565951ee43912a4a82b355448e23600e07b1b7107c--krb5-1.21.2.bottle_manifest.json
-[34m==>[0m [1mPouring krb5--1.21.2.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/krb5/1.21.2: 162 files, 5.6MB
-[32m==>[0m [1mInstalling postgresql@14 dependency: [32mlz4[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.9.4[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/379e59b981667f9585b33a2ff318769d8edca3ce6fd2e9a67ed291ae3e0cc872--lz4-1.9.4.bottle_manifest.json
-[34m==>[0m [1mPouring lz4--1.9.4.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/lz4/1.9.4: 22 files, 636.0KB
-[32m==>[0m [1mInstalling postgresql@14 dependency: [32mreadline[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.7[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/14125f7fa4b49853f76160b864f58379d90e52833ffeb8bd0643609bcd7f02a7--readline-8.2.7.bottle_manifest.json
-[34m==>[0m [1mPouring readline--8.2.7.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/readline/8.2.7: 50 files, 1.7MB
-[32m==>[0m [1mInstalling [32mpostgresql@14[39m[0m
-[34m==>[0m [1mPouring postgresql@14--14.10_1.arm64_sonoma.bottle.tar.gz[0m
-[34m==>[0m [1m/opt/homebrew/Cellar/postgresql@14/14.10_1/bin/initdb --locale=C -E UTF-8 /o[0m
-[34m==>[0m [1mCaveats[0m
-This formula has created a default database cluster with:
-  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgresql@14
-For more details, read:
-  https://www.postgresql.org/docs/14/app-initdb.html
-
-To start postgresql@14 now and restart at login:
-  brew services start postgresql@14
-Or, if you don't want/need a background service you can just run:
-  /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14
-[34m==>[0m [1mSummary[0m
-🍺  /opt/homebrew/Cellar/postgresql@14/14.10_1: 3,317 files, 46MB
-[34m==>[0m [1mRunning `brew cleanup postgresql@14`...[0m
-Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-[32m==>[0m [1mCaveats[0m
-[34m==>[0m [1mpostgresql@14[0m
-This formula has created a default database cluster with:
-  initdb --locale=C -E UTF-8 /opt/homebrew/var/postgresql@14
-For more details, read:
-  https://www.postgresql.org/docs/14/app-initdb.html
-
-To start postgresql@14 now and restart at login:
-  brew services start postgresql@14
-Or, if you don't want/need a background service you can just run:
-  /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hsscrp ipt// sever   rgver    ver[?2004l
-zsh: no such file or directory: script/server
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails server[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h[7m$ sudo gem install rails[27m[24D[27m$[27m [27ms[27mu[27md[27mo[27m [27mg[27me[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mr[27ma[27mi[27ml[27ms[?2004l
-zsh: command not found: $
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h$ sudo gem install rails[P[23C [24D[?2004l
-Password:
-Fetching webrick-1.8.1.gem
-Fetching zeitwerk-2.6.12.gem
-Fetching concurrent-ruby-1.2.2.gem
-Fetching tzinfo-2.0.6.gem
-Fetching rack-3.0.8.gem
-Fetching thor-1.3.0.gem
-Fetching rackup-2.1.0.gem
-Fetching minitest-5.20.0.gem
-Fetching i18n-1.14.1.gem
-Fetching connection_pool-2.4.1.gem
-Fetching activesupport-7.1.2.gem
-Fetching racc-1.7.3.gem
-Fetching nokogiri-1.15.5-arm64-darwin.gem
-Fetching crass-1.0.6.gem
-Fetching loofah-2.22.0.gem
-Fetching rails-html-sanitizer-1.6.0.gem
-Fetching rails-dom-testing-2.2.0.gem
-Fetching rack-test-2.1.0.gem
-Fetching rack-session-2.0.0.gem
-Fetching erubi-1.12.0.gem
-Fetching builder-3.2.4.gem
-Fetching actionview-7.1.2.gem
-Fetching actionpack-7.1.2.gem
-Fetching railties-7.1.2.gem
-Fetching marcel-1.0.2.gem
-Fetching timeout-0.4.1.gem
-Fetching activemodel-7.1.2.gem
-Fetching activerecord-7.1.2.gem
-Fetching globalid-1.2.1.gem
-Fetching activejob-7.1.2.gem
-Fetching activestorage-7.1.2.gem
-Fetching actiontext-7.1.2.gem
-Fetching mini_mime-1.1.5.gem
-Fetching mail-2.8.1.gem
-Fetching rails-7.1.2.gem
-Fetching actionmailer-7.1.2.gem
-Fetching actionmailbox-7.1.2.gem
-Fetching websocket-extensions-0.1.5.gem
-Fetching websocket-driver-0.7.6.gem
-Fetching nio4r-2.6.1.gem
-Fetching actioncable-7.1.2.gem
-Successfully installed zeitwerk-2.6.12
-Successfully installed thor-1.3.0
-Successfully installed webrick-1.8.1
-Successfully installed rack-3.0.8
-Successfully installed rackup-2.1.0
-Successfully installed concurrent-ruby-1.2.2
-Successfully installed tzinfo-2.0.6
-Successfully installed minitest-5.20.0
-Successfully installed i18n-1.14.1
-Successfully installed connection_pool-2.4.1
-Successfully installed activesupport-7.1.2
-Building native extensions. This could take a while...
-Successfully installed racc-1.7.3
-Successfully installed nokogiri-1.15.5-arm64-darwin
-Successfully installed crass-1.0.6
-Successfully installed loofah-2.22.0
-Successfully installed rails-html-sanitizer-1.6.0
-Successfully installed rails-dom-testing-2.2.0
-Successfully installed rack-test-2.1.0
-Successfully installed rack-session-2.0.0
-Successfully installed erubi-1.12.0
-Successfully installed builder-3.2.4
-Successfully installed actionview-7.1.2
-Successfully installed actionpack-7.1.2
-Successfully installed railties-7.1.2
-Successfully installed marcel-1.0.2
-Successfully installed timeout-0.4.1
-Successfully installed activemodel-7.1.2
-Successfully installed activerecord-7.1.2
-Successfully installed globalid-1.2.1
-Successfully installed activejob-7.1.2
-Successfully installed activestorage-7.1.2
-Successfully installed actiontext-7.1.2
-Successfully installed mini_mime-1.1.5
-Successfully installed mail-2.8.1
-Successfully installed actionmailer-7.1.2
-Successfully installed actionmailbox-7.1.2
-Successfully installed websocket-extensions-0.1.5
-Building native extensions. This could take a while...
-Successfully installed websocket-driver-0.7.6
-Building native extensions. This could take a while...
-Successfully installed nio4r-2.6.1
-Successfully installed actioncable-7.1.2
-Successfully installed rails-7.1.2
-Parsing documentation for zeitwerk-2.6.12
-Installing ri documentation for zeitwerk-2.6.12
-Parsing documentation for thor-1.3.0
-Installing ri documentation for thor-1.3.0
-Parsing documentation for webrick-1.8.1
-Installing ri documentation for webrick-1.8.1
-Parsing documentation for rack-3.0.8
-Installing ri documentation for rack-3.0.8
-Parsing documentation for rackup-2.1.0
-Installing ri documentation for rackup-2.1.0
-Parsing documentation for concurrent-ruby-1.2.2
-Installing ri documentation for concurrent-ruby-1.2.2
-Parsing documentation for tzinfo-2.0.6
-Installing ri documentation for tzinfo-2.0.6
-Parsing documentation for minitest-5.20.0
-Installing ri documentation for minitest-5.20.0
-Parsing documentation for i18n-1.14.1
-Installing ri documentation for i18n-1.14.1
-Parsing documentation for connection_pool-2.4.1
-Installing ri documentation for connection_pool-2.4.1
-Parsing documentation for activesupport-7.1.2
-Couldn't find file to include 'activesupport/README.rdoc' from lib/active_support.rb
-Installing ri documentation for activesupport-7.1.2
-Parsing documentation for racc-1.7.3
-Installing ri documentation for racc-1.7.3
-Parsing documentation for nokogiri-1.15.5-arm64-darwin
-Installing ri documentation for nokogiri-1.15.5-arm64-darwin
-Parsing documentation for crass-1.0.6
-Installing ri documentation for crass-1.0.6
-Parsing documentation for loofah-2.22.0
-Installing ri documentation for loofah-2.22.0
-Parsing documentation for rails-html-sanitizer-1.6.0
-Installing ri documentation for rails-html-sanitizer-1.6.0
-Parsing documentation for rails-dom-testing-2.2.0
-Installing ri documentation for rails-dom-testing-2.2.0
-Parsing documentation for rack-test-2.1.0
-Installing ri documentation for rack-test-2.1.0
-Parsing documentation for rack-session-2.0.0
-Installing ri documentation for rack-session-2.0.0
-Parsing documentation for erubi-1.12.0
-Installing ri documentation for erubi-1.12.0
-Parsing documentation for builder-3.2.4
-Installing ri documentation for builder-3.2.4
-Parsing documentation for actionview-7.1.2
-Couldn't find file to include 'actionview/README.rdoc' from lib/action_view.rb
-Installing ri documentation for actionview-7.1.2
-Parsing documentation for actionpack-7.1.2
-Installing ri documentation for actionpack-7.1.2
-Parsing documentation for railties-7.1.2
-Installing ri documentation for railties-7.1.2
-Parsing documentation for marcel-1.0.2
-Installing ri documentation for marcel-1.0.2
-Parsing documentation for timeout-0.4.1
-Installing ri documentation for timeout-0.4.1
-Parsing documentation for activemodel-7.1.2
-Couldn't find file to include 'activemodel/README.rdoc' from lib/active_model.rb
-Installing ri documentation for activemodel-7.1.2
-Parsing documentation for activerecord-7.1.2
-Couldn't find file to include 'activerecord/README.rdoc' from lib/active_record.rb
-Installing ri documentation for activerecord-7.1.2
-Parsing documentation for globalid-1.2.1
-Installing ri documentation for globalid-1.2.1
-Parsing documentation for activejob-7.1.2
-Couldn't find file to include 'activejob/README.md' from lib/active_job.rb
-Installing ri documentation for activejob-7.1.2
-Parsing documentation for activestorage-7.1.2
-Couldn't find file to include 'activestorage/README.md' from lib/active_storage.rb
-Installing ri documentation for activestorage-7.1.2
-Parsing documentation for actiontext-7.1.2
-Couldn't find file to include 'actiontext/README.md' from lib/action_text.rb
-Installing ri documentation for actiontext-7.1.2
-Parsing documentation for mini_mime-1.1.5
-Installing ri documentation for mini_mime-1.1.5
-Parsing documentation for mail-2.8.1
-Installing ri documentation for mail-2.8.1
-Parsing documentation for actionmailer-7.1.2
-Couldn't find file to include 'actionmailer/README.rdoc' from lib/action_mailer.rb
-Installing ri documentation for actionmailer-7.1.2
-Parsing documentation for actionmailbox-7.1.2
-Couldn't find file to include 'actionmailbox/README.md' from lib/action_mailbox.rb
-Installing ri documentation for actionmailbox-7.1.2
-Parsing documentation for websocket-extensions-0.1.5
-Installing ri documentation for websocket-extensions-0.1.5
-Parsing documentation for websocket-driver-0.7.6
-Installing ri documentation for websocket-driver-0.7.6
-Parsing documentation for nio4r-2.6.1
-Installing ri documentation for nio4r-2.6.1
-Parsing documentation for actioncable-7.1.2
-Couldn't find file to include 'actioncable/README.md' from lib/action_cable.rb
-Installing ri documentation for actioncable-7.1.2
-Parsing documentation for rails-7.1.2
-Installing ri documentation for rails-7.1.2
-Done installing documentation for zeitwerk, thor, webrick, rack, rackup, concurrent-ruby, tzinfo, minitest, i18n, connection_pool, activesupport, racc, nokogiri, crass, loofah, rails-html-sanitizer, rails-dom-testing, rack-test, rack-session, erubi, builder, actionview, actionpack, railties, marcel, timeout, activemodel, activerecord, globalid, activejob, activestorage, actiontext, mini_mime, mail, actionmailer, actionmailbox, websocket-extensions, websocket-driver, nio4r, actioncable, rails after 18 seconds
-41 gems installed
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails server[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hggem install rails[?2004l
-Fetching rails-7.1.2.gem
-Successfully installed rails-7.1.2
-Parsing documentation for rails-7.1.2
-Installing ri documentation for rails-7.1.2
-Done installing documentation for rails after 0 seconds
-1 gem installed
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails e server[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h[7m$ sudo gem install rails[27m[24D[27m$[27m [27ms[27mu[27md[27mo[27m [27mg[27me[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mr[27ma[27mi[27ml[27ms[?2004l
-zsh: command not found: $
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h$ sudo gem install rails  ls[P[23C [24D[?2004l
-Successfully installed rails-7.1.2
-Parsing documentation for rails-7.1.2
-Done installing documentation for rails after 0 seconds
-1 gem installed
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails server[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbrew instal = l rails[?2004l
-[34m==>[0m [1mDownloading https://formulae.brew.sh/api/formula.jws.json[0m
-#=#=#                                                                          ###############                                                            21.5%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://formulae.brew.sh/api/cask.jws.json[0m
-##                                                                          3.1%######################################################################### 100.0%
-[33mWarning:[0m No available formula with the name "rails". Did you mean grails or rain?
-[34m==>[0m [1mSearching for similarly named formulae and casks...[0m
-[34m==>[0m [1mFormulae[0m
-grails              rails-completion    trailscraper        rain
-
-To install grails, run:
-  brew install grails
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h[7mbrew install grails[27m[19D[27mb[27mr[27me[27mw[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mg[27mr[27ma[27mi[27ml[27ms[?2004l
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/grails/manifests/6.1.0[0m
-#=#=#                                                                          ###############################################                            64.4%######################################################################### 100.0%
-[32m==>[0m [1mFetching dependencies for grails: [32mgiflib[39m, [32mlibpng[39m, [32mfreetype[39m, [32mfontconfig[39m, [32mgettext[39m, [32mglib[39m, [32mxorgproto[39m, [32mlibxau[39m, [32mlibxdmcp[39m, [32mlibxcb[39m, [32mlibx11[39m, [32mlibxext[39m, [32mlibxrender[39m, [32mlzo[39m, [32mpixman[39m, [32mcairo[39m, [32mgraphite2[39m, [32mharfbuzz[39m, [32mjpeg-turbo[39m, [32mzstd[39m, [32mlibtiff[39m, [32mlittle-cms2[39m and [32mopenjdk@11[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/giflib/manifests/5.2.1[0m
-#=#=#                                                                          ########################                                                   34.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mgiflib[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:0810045224f[0m
-#=#=#                                                                          ##O#- #                                                                        #######                                                                    10.9%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.40[0m
-#=#=#                                                                          ###########################                                                37.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibpng[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:3609754d26b[0m
-#=#=#                                                                          ##O#- #                                                                        ####                                                                        6.3%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/freetype/manifests/2.13.2-1[0m
-#=#=#                                                                          ######                                                                      9.4%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mfreetype[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:8966d4448[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.3%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/fontconfig/manifests/2.14.2[0m
-#=#=#                                                                          #######################                                                    32.4%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mfontconfig[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:38aa7dd[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.2%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.4[0m
-#=#=#                                                                          #######                                                                     9.8%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mgettext[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:43d00547f4[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.0%##########                                                                 14.3%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.78.1-1[0m
-#=#=#                                                                          ####                                                                        6.7%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mglib[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:b48fbc4e70e32[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.5%###                                                                         4.5%#######                                                                    10.5%#############                                                              18.1%####################                                                       27.9%############################                                               39.3%#######################################                                    54.1%####################################################                       72.4%####################################################################       93.9%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/xorgproto/manifests/2023.2[0m
-#=#=#                                                                          ##############################                                             42.5%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mxorgproto[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/xorgproto/blobs/sha256:32a25261[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.4%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxau/manifests/1.0.11[0m
-#=#=#                                                                          #######                                                                    10.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibxau[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxau/blobs/sha256:5af5678065c[0m
-#=#=#                                                                          ##O#- #                                                                        ######                                                                      8.9%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxdmcp/manifests/1.1.4[0m
-#=#=#                                                                          ###########################                                                37.7%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibxdmcp[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxdmcp/blobs/sha256:6c24a3eee[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                       #####                                                                       7.8%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxcb/manifests/1.16-1[0m
-#=#=#                                                                          ####                                                                        5.9%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibxcb[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:f9b6be27d8a[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.1%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libx11/manifests/1.8.7[0m
-#=#=#                                                                          #####                                                                       7.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibx11[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:0894f5a7c09[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    1.2%################################################                           66.7%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxext/manifests/1.3.5[0m
-#=#=#                                                                          ###########                                                                15.5%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibxext[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxext/blobs/sha256:3f26762922[0m
-#=#=#                                                                          ##O#- #                                                                        ####                                                                        6.5%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxrender/manifests/0.9.11[0m
-#=#=#                                                                          ###################                                                        26.9%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibxrender[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxrender/blobs/sha256:3872611[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                       #######################################################                    75.5%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/lzo/manifests/2.10[0m
-#=#=#                                                                          ###########################                                                37.4%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlzo[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/lzo/blobs/sha256:167749edd2052e[0m
-#=#=#                                                                          ##O#- #                                                                        ################                                                           22.2%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/pixman/manifests/0.42.2-1[0m
-#=#=#                                                                          ##################                                                         24.8%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mpixman[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/pixman/blobs/sha256:d355a294d3f[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.7%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/cairo/manifests/1.18.0[0m
-#=#=#                                                                          ##########################                                                 36.6%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mcairo[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:06c6aaadeca8[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                       ###                                                                         5.4%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/graphite2/manifests/1.3.14[0m
-#=#=#                                                                          ###############                                                            21.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mgraphite2[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/graphite2/blobs/sha256:4cdee055[0m
-#=#=#                                                                          ##O#- #                                                                        ###############                                                            21.1%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/harfbuzz/manifests/8.3.0[0m
-#=#=#                                                                          ###################                                                        26.4%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mharfbuzz[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:b887133a8[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.1%###########################################                                60.0%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.0.0[0m
-#=#=#                                                                          #####                                                                       7.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mjpeg-turbo[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:af4d480[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                                                                                                   0.2%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.5-1[0m
-#=#=#                                                                          ##O#- #                                                                        ######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mzstd[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:4712aabcc9f27[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                       ###                                                                         4.4%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libtiff/manifests/4.6.0[0m
-#=#=#                                                                          #############################                                              40.7%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlibtiff[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:a9cafbce08[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.1%################################################################           89.0%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.15[0m
-#=#=#                                                                          #####                                                                       7.7%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mlittle-cms2[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:642398[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.5%######################################################################### 100.0%
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/openjdk/11/manifests/11.0.21[0m
-#=#=#                                                                          ###                                                                         4.1%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mopenjdk@11[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:864a430[0m
-#=#=#                                                                          ##O#- #                                                                        ##O=#  #                                                                                                                                                   0.6%###                                                                         4.3%######                                                                      8.7%##########                                                                 13.9%##############                                                             19.5%#################                                                          23.5%###################                                                        27.4%######################                                                     31.3%#########################                                                  35.4%############################                                               39.3%###############################                                            42.8%##################################                                         47.3%#####################################                                      51.3%########################################                                   55.3%###########################################                                59.3%#############################################                              62.9%#################################################                          67.4%####################################################                       71.4%######################################################                     74.9%##########################################################                 79.7%#############################################################              83.7%###############################################################            87.6%##################################################################         91.6%#####################################################################      95.7%########################################################################   99.6%######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mgrails[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/grails/blobs/sha256:d585ddee119[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.0%                                                                            0.8%#                                                                           2.4%#                                                                           2.4%####                                                                        6.5%#######                                                                    10.8%###########                                                                15.1%##############                                                             19.3%#################                                                          23.7%####################                                                       28.1%#######################                                                    32.4%##########################                                                 36.6%#############################                                              41.0%#################################                                          45.6%####################################                                       49.7%#######################################                                    54.1%##########################################                                 58.7%#############################################                              62.5%#################################################                          67.4%####################################################                       72.0%#######################################################                    76.4%##########################################################                 80.5%#############################################################              84.2%#################################################################          89.3%####################################################################       93.7%#######################################################################    97.8%######################################################################### 100.0%
-[32m==>[0m [1mInstalling dependencies for grails: [32mgiflib[39m, [32mlibpng[39m, [32mfreetype[39m, [32mfontconfig[39m, [32mgettext[39m, [32mglib[39m, [32mxorgproto[39m, [32mlibxau[39m, [32mlibxdmcp[39m, [32mlibxcb[39m, [32mlibx11[39m, [32mlibxext[39m, [32mlibxrender[39m, [32mlzo[39m, [32mpixman[39m, [32mcairo[39m, [32mgraphite2[39m, [32mharfbuzz[39m, [32mjpeg-turbo[39m, [32mzstd[39m, [32mlibtiff[39m, [32mlittle-cms2[39m and [32mopenjdk@11[39m[0m
-[32m==>[0m [1mInstalling grails dependency: [32mgiflib[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/giflib/manifests/5.2.1[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/51910e68b838a5c62c91c9352172d516e77a3c3c1a59a2cebaffc3f64f46adf4--giflib-5.2.1.bottle_manifest.json
-[34m==>[0m [1mPouring giflib--5.2.1.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/giflib/5.2.1: 19 files, 540KB
-[32m==>[0m [1mInstalling grails dependency: [32mlibpng[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.40[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/d2caacc64e32be045b902fa78d2bb4aea7fba8f088cef85cd34b1beab15b755a--libpng-1.6.40.bottle_manifest.json
-[34m==>[0m [1mPouring libpng--1.6.40.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libpng/1.6.40: 27 files, 1.3MB
-[32m==>[0m [1mInstalling grails dependency: [32mfreetype[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/freetype/manifests/2.13.2-1[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/8d6ca45fa8766fb544a5e6dbc76f0a68568656ab4fe1e837704491bb24e3035d--freetype-2.13.2-1.bottle_manifest.json
-[34m==>[0m [1mPouring freetype--2.13.2.arm64_sonoma.bottle.1.tar.gz[0m
-🍺  /opt/homebrew/Cellar/freetype/2.13.2: 67 files, 2.4MB
-[32m==>[0m [1mInstalling grails dependency: [32mfontconfig[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/fontconfig/manifests/2.14.2[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/661b3d30dc143679f93265d36ce47323212b212b53bb099e319b0dba9c05594e--fontconfig-2.14.2.bottle_manifest.json
-[34m==>[0m [1mPouring fontconfig--2.14.2.arm64_sonoma.bottle.tar.gz[0m
-[34m==>[0m [1mRegenerating font cache, this may take a while[0m
-[34m==>[0m [1m/opt/homebrew/Cellar/fontconfig/2.14.2/bin/fc-cache -frv[0m
-🍺  /opt/homebrew/Cellar/fontconfig/2.14.2: 88 files, 2.4MB
-[32m==>[0m [1mInstalling grails dependency: [32mgettext[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.4[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/3ceb9457127eaa7378dd80ed256098ffb391e2350069becb25cfe2a14f0b7d6d--gettext-0.22.4.bottle_manifest.json
-[34m==>[0m [1mPouring gettext--0.22.4.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/gettext/0.22.4: 2,042 files, 24.3MB
-[32m==>[0m [1mInstalling grails dependency: [32mglib[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.78.1-1[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/30d24e31a4d9f721d2f82785e57ff8e3d792dac601ab5584b121be5ca50f1462--glib-2.78.1-1.bottle_manifest.json
-[34m==>[0m [1mPouring glib--2.78.1.arm64_sonoma.bottle.1.tar.gz[0m
-🍺  /opt/homebrew/Cellar/glib/2.78.1: 456 files, 22.4MB
-[32m==>[0m [1mInstalling grails dependency: [32mxorgproto[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/xorgproto/manifests/2023.2[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/8740825bd79ba6441c86fb430f955cb3d08f4693dd2947fe877c11c7c8122343--xorgproto-2023.2.bottle_manifest.json
-[34m==>[0m [1mPouring xorgproto--2023.2.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/xorgproto/2023.2: 267 files, 3.9MB
-[32m==>[0m [1mInstalling grails dependency: [32mlibxau[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxau/manifests/1.0.11[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/7faff26297b2e07682655beaa529cff7b3de0ad1abc013863ca3d03602b79ee7--libxau-1.0.11.bottle_manifest.json
-[34m==>[0m [1mPouring libxau--1.0.11.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libxau/1.0.11: 21 files, 123.5KB
-[32m==>[0m [1mInstalling grails dependency: [32mlibxdmcp[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxdmcp/manifests/1.1.4[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/1af80edced252b5f690f78a3805b785cbf689dc947cd5f45dced60c97640a9c9--libxdmcp-1.1.4.bottle_manifest.json
-[34m==>[0m [1mPouring libxdmcp--1.1.4.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libxdmcp/1.1.4: 11 files, 130.3KB
-[32m==>[0m [1mInstalling grails dependency: [32mlibxcb[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxcb/manifests/1.16-1[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/9f2d408e88eb406c55d255e0e7c935c12ec3588a121c969d42635346d8ab3497--libxcb-1.16-1.bottle_manifest.json
-[34m==>[0m [1mPouring libxcb--1.16.arm64_sonoma.bottle.1.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libxcb/1.16: 2,491 files, 7.5MB
-[32m==>[0m [1mInstalling grails dependency: [32mlibx11[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libx11/manifests/1.8.7[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/4d15c929e0532c9a908dcb7d562929ecc5dd3a0a0cd4c19cf50683c06282fd7f--libx11-1.8.7.bottle_manifest.json
-[34m==>[0m [1mPouring libx11--1.8.7.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libx11/1.8.7: 1,042 files, 7.0MB
-[32m==>[0m [1mInstalling grails dependency: [32mlibxext[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxext/manifests/1.3.5[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/36b14aebd45b8fbf0f965d846bbc5126adbe882c0775c9936edb0432b347b9a1--libxext-1.3.5.bottle_manifest.json
-[34m==>[0m [1mPouring libxext--1.3.5.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libxext/1.3.5: 87 files, 446.4KB
-[32m==>[0m [1mInstalling grails dependency: [32mlibxrender[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libxrender/manifests/0.9.11[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/134c11be8346a1b116e04983c2da6366f29c4f4c2abc17604dcdb80d0475ae9d--libxrender-0.9.11.bottle_manifest.json
-[34m==>[0m [1mPouring libxrender--0.9.11.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libxrender/0.9.11: 12 files, 214.2KB
-[32m==>[0m [1mInstalling grails dependency: [32mlzo[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/lzo/manifests/2.10[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/d4aa5b0c239912c53bc857d1012c6b7feb4acb509618f5e100f95bf8521f08e7--lzo-2.10.bottle_manifest.json
-[34m==>[0m [1mPouring lzo--2.10.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/lzo/2.10: 31 files, 565.5KB
-[32m==>[0m [1mInstalling grails dependency: [32mpixman[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/pixman/manifests/0.42.2-1[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/2b0d8f2c63712ce503fa54309b732051a7ca5cd31bd561aa4aaba331bf26bcef--pixman-0.42.2-1.bottle_manifest.json
-[34m==>[0m [1mPouring pixman--0.42.2.arm64_sonoma.bottle.1.tar.gz[0m
-🍺  /opt/homebrew/Cellar/pixman/0.42.2: 11 files, 1.3MB
-[32m==>[0m [1mInstalling grails dependency: [32mcairo[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/cairo/manifests/1.18.0[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/1b8b7f19e38cb0e029497dfe0ad3f3557f605025c5575bdfe86c17b889c6e6d1--cairo-1.18.0.bottle_manifest.json
-[34m==>[0m [1mPouring cairo--1.18.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/cairo/1.18.0: 52 files, 2.2MB
-[32m==>[0m [1mInstalling grails dependency: [32mgraphite2[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/graphite2/manifests/1.3.14[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/bbb4dd2ef1846301d1eb08053e19e11ca9c780f93f4d3b2d638fd94a9bf54a0c--graphite2-1.3.14.bottle_manifest.json
-[34m==>[0m [1mPouring graphite2--1.3.14.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/graphite2/1.3.14: 18 files, 281.9KB
-[32m==>[0m [1mInstalling grails dependency: [32mharfbuzz[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/harfbuzz/manifests/8.3.0[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/8fccd91a473694ef9d916ce061ae69cb18243bdab491757fae06fed911dd5b63--harfbuzz-8.3.0.bottle_manifest.json
-[34m==>[0m [1mPouring harfbuzz--8.3.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/harfbuzz/8.3.0: 76 files, 9.5MB
-[32m==>[0m [1mInstalling grails dependency: [32mjpeg-turbo[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.0.0[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/325e745bcb7840d6a83df7bfcafaa4dbc30b29140f252fb82b7714493df29d6d--jpeg-turbo-3.0.0.bottle_manifest.json
-[34m==>[0m [1mPouring jpeg-turbo--3.0.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/jpeg-turbo/3.0.0: 44 files, 3.4MB
-[32m==>[0m [1mInstalling grails dependency: [32mzstd[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.5-1[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/fc13698599720a53800064b40cddd854399651cf8760d9b0e46092f2e8da701a--zstd-1.5.5-1.bottle_manifest.json
-[34m==>[0m [1mPouring zstd--1.5.5.arm64_sonoma.bottle.1.tar.gz[0m
-🍺  /opt/homebrew/Cellar/zstd/1.5.5: 31 files, 2MB
-[32m==>[0m [1mInstalling grails dependency: [32mlibtiff[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/libtiff/manifests/4.6.0[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/9c8455a2f6bcea7bf3e3461218fba309141b0b0553b6e1afc5fe64e63caccff3--libtiff-4.6.0.bottle_manifest.json
-[34m==>[0m [1mPouring libtiff--4.6.0.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/libtiff/4.6.0: 414 files, 6.7MB
-[32m==>[0m [1mInstalling grails dependency: [32mlittle-cms2[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.15[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/272d59128e963c029ee4be014a1cb85b12a790601ded962689c83e6190ecb0bf--little-cms2-2.15.bottle_manifest.json
-[34m==>[0m [1mPouring little-cms2--2.15.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/little-cms2/2.15: 21 files, 1.4MB
-[32m==>[0m [1mInstalling grails dependency: [32mopenjdk@11[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/openjdk/11/manifests/11.0.21[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/cc2a280e3d623e1cc5bdcbb047604a548ad30174ad35007de84eb1179ab22665--openjdk@11-11.0.21.bottle_manifest.json
-[34m==>[0m [1mPouring openjdk@11--11.0.21.arm64_sonoma.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/openjdk@11/11.0.21: 667 files, 296.2MB
-[32m==>[0m [1mInstalling [32mgrails[39m[0m
-[34m==>[0m [1mPouring grails--6.1.0.all.bottle.tar.gz[0m
-[34m==>[0m [1mCaveats[0m
-The GRAILS_HOME directory is:
-  /opt/homebrew/opt/grails/libexec
-[34m==>[0m [1mSummary[0m
-🍺  /opt/homebrew/Cellar/grails/6.1.0: 597 files, 197.0MB
-[34m==>[0m [1mRunning `brew cleanup grails`...[0m
-Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-[34m==>[0m [1mUpgrading 1 dependent of upgraded formulae:[0m
-Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-git 2.42.0 -> 2.43.0
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/git/manifests/2.43.0[0m
-#=#=#                                                                          #########################                                                  35.2%######################################################################### 100.0%
-[32m==>[0m [1mChecking for dependents of upgraded formulae...[0m
-[34m==>[0m [1mNo broken dependents found![0m
-[32m==>[0m [1mCaveats[0m
-[34m==>[0m [1mgrails[0m
-The GRAILS_HOME directory is:
-  /opt/homebrew/opt/grails/libexec
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hsserver rails[?2004l
-zsh: command not found: server
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails server[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hgggg  bbrew install gem[?2004l
-[33mWarning:[0m No available formula with the name "gem". Did you mean gcem, gel, glm, gdm, gom, gpm, gum or rem?
-macOS provides gem as part of Ruby. To install a newer version:
-  brew install ruby
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbrw ew install ruby[?2004l
-[33mWarning:[0m ruby 3.2.2_1 is already installed and up-to-date.
-To reinstall 3.2.2_1, run:
-  brew reinstall ruby
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbrew in  reinstall ruby[?2004l
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/ruby/manifests/3.2.2_1[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/b7df479895630ebb7fdc5e0915854094e1f610797d6eff15202cebf668cbad53--ruby-3.2.2_1.bottle_manifest.json
-[32m==>[0m [1mFetching [32mruby[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/ruby/blobs/sha256:6a1a2f3c6404c[0m
-Already downloaded: /Users/kara/Library/Caches/Homebrew/downloads/d73ccf0d9f18a304208743cae33e878bf0ef086e1cf837a98b0d08be170807bb--ruby--3.2.2_1.arm64_sonoma.bottle.tar.gz
-[32m==>[0m [1mReinstalling [32mruby[39m [0m
-[34m==>[0m [1mPouring ruby--3.2.2_1.arm64_sonoma.bottle.tar.gz[0m
-[34m==>[0m [1mCaveats[0m
-ruby is keg-only, which means it was not symlinked into /opt/homebrew,
-because macOS already provides this software and installing another version in
-parallel can cause all kinds of trouble.
-
-If you need to have ruby first in your PATH, run:
-  echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
-
-For compilers to find ruby you may need to set:
-  export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
-  export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
-[34m==>[0m [1mSummary[0m
-🍺  /opt/homebrew/Cellar/ruby/3.2.2_1: 16,605 files, 48.3MB
-[34m==>[0m [1mRunning `brew cleanup ruby`...[0m
-Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbrew install server[?2004l
-[33mWarning:[0m No available formula with the name "server". Did you mean serve, serveit or servus?
-[34m==>[0m [1mSearching for similarly named formulae and casks...[0m
-[34m==>[0m [1mFormulae[0m
-ansible-language-server                  nats-server
-bash-language-server                     nats-streaming-server
-code-server                              observerward
-conserver                                openiothub-server
-dhall-lsp-server                         percona-server
-dockerfile-language-server               purescript-language-server
-efm-langserver                           python-lsp-server
-fdroidserver                             qt-percona-server
-fortran-language-server                  selenium-server
-freeradius-server                        serverless
-geoserver                                sql-language-server
-grammarly-languageserver                 tailwindcss-language-server
-haskell-language-server                  titan-server
-http-server                              trafficserver
-kotlin-language-server                   typescript-language-server
-launch_socket_server                     vala-language-server
-libbitcoin-server                        vscode-langservers-extracted
-libhttpserver                            xorg-server
-libu2f-server                            yaml-language-server
-libvncserver                             serve
-lua-language-server                      serveit
-mapserver                                servus
-mockserver
-
-To install ansible-language-server, run:
-  brew install ansible-language-server
-
-[34m==>[0m [1mCasks[0m
-air-video-server-hd                      navicat-for-sql-server
-airserver                                okta-advanced-server-access
-altserver                                plex-media-server
-audiogridder-server                      servo
-btcpayserver-vault                       simple-web-server
-couchbase-server-community               sofa-server
-couchbase-server-enterprise              touchbarserver
-dcp-o-matic-encode-server                twonkyserver
-emby-server                              universal-media-server
-go-server                                vine-server
-istat-server                             virtualhereserver
-ivideonserver                            vnc-server
-minecraft-server
-
-To install air-video-server-hd, run:
-  brew install --cask air-video-server-hd
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hbbrew install [7mhttp-server[27m[11D[27mh[27mt[27mt[27mp[27m-[27ms[27me[27mr[27mv[27me[27mr[?2004l
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/http-server/manifests/14.1.1[0m
-#=#=#                                                                          ##O#- #                                                                        ######################################################################### 100.0%
-[32m==>[0m [1mFetching [32mhttp-server[39m[0m
-[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/http-server/blobs/sha256:8e9d67[0m
-#=#=#                                                                          ##O#- #                                                                                                                                                    0.1%#############                                                              18.2%################################                                           44.0%#####################################################                      73.5%######################################################################### 100.0%
-[34m==>[0m [1mPouring http-server--14.1.1.all.bottle.tar.gz[0m
-🍺  /opt/homebrew/Cellar/http-server/14.1.1: 1,582 files, 3.7MB
-[34m==>[0m [1mRunning `brew cleanup http-server`...[0m
-Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
-Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hsscs  rrai ils e server[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails http-server[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails[?2004l
-Rails is not currently installed on this system. To get the latest version, simply type:
-
-    $ sudo gem install rails
-
-You can then rerun your "rails" command.
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hiinstall rails[?2004l
-usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
-               [-o owner] file1 file2
-       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
-               [-o owner] file1 ... fileN directory
-       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hjjsuda   j  ssudo gem insstall rails[?2004l
-Password:
-Sorry, try again.
-Password:
-ERROR:  While executing gem ... (Gem::UnknownCommandError)
-    Unknown command insstall
-Did you mean?  "install"
-	/Users/kara/.rubies/ruby-3.1.3/lib/ruby/3.1.0/rubygems/command_manager.rb:198:in `find_command'
-	/Users/kara/.rubies/ruby-3.1.3/lib/ruby/3.1.0/rubygems/command_manager.rb:183:in `process_args'
-	/Users/kara/.rubies/ruby-3.1.3/lib/ruby/3.1.0/rubygems/command_manager.rb:149:in `run'
-	/Users/kara/.rubies/ruby-3.1.3/lib/ruby/3.1.0/rubygems/gem_runner.rb:51:in `run'
-	/Users/kara/.rubies/ruby-3.1.3/bin/gem:21:in `<main>'
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h

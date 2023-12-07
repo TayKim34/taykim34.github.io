@@ -1,310 +1,0 @@
-Script started on Thu Nov 30 11:44:03 2023
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails nmew   ew[?2004l
-Usage:
-  rails new APP_PATH [options]
-
-Options:
-                 [--skip-namespace], [--no-skip-namespace]              # Skip namespace (affects only isolated engines)
-                                                                        # Default: false
-                 [--skip-collision-check], [--no-skip-collision-check]  # Skip collision check
-                                                                        # Default: false
-  -r,            [--ruby=PATH]                                          # Path to the Ruby binary of your choice
-                                                                        # Default: /Users/kara/.rubies/ruby-3.1.3/bin/ruby
-  -n,            [--name=NAME]                                          # Name of the app
-  -m,            [--template=TEMPLATE]                                  # Path to some application template (can be a filesystem path or URL)
-  -d,            [--database=DATABASE]                                  # Preconfigure for selected database (options: mysql/trilogy/postgresql/sqlite3/oracle/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
-                                                                        # Default: sqlite3
-  -G,            [--skip-git], [--no-skip-git]                          # Skip git init, .gitignore and .gitattributes
-                 [--skip-docker], [--no-skip-docker]                    # Skip Dockerfile, .dockerignore and bin/docker-entrypoint
-                 [--skip-keeps], [--no-skip-keeps]                      # Skip source control .keep files
-  -M,            [--skip-action-mailer], [--no-skip-action-mailer]      # Skip Action Mailer files
-                 [--skip-action-mailbox], [--no-skip-action-mailbox]    # Skip Action Mailbox gem
-                 [--skip-action-text], [--no-skip-action-text]          # Skip Action Text gem
-  -O,            [--skip-active-record], [--no-skip-active-record]      # Skip Active Record files
-                 [--skip-active-job], [--no-skip-active-job]            # Skip Active Job
-                 [--skip-active-storage], [--no-skip-active-storage]    # Skip Active Storage files
-  -C,            [--skip-action-cable], [--no-skip-action-cable]        # Skip Action Cable files
-  -A,            [--skip-asset-pipeline], [--no-skip-asset-pipeline]    # Indicates when to generate skip asset pipeline
-  -a,            [--asset-pipeline=ASSET_PIPELINE]                      # Choose your asset pipeline [options: sprockets (default), propshaft]
-                                                                        # Default: sprockets
-  -J, --skip-js, [--skip-javascript], [--no-skip-javascript]            # Skip JavaScript files
-                 [--skip-hotwire], [--no-skip-hotwire]                  # Skip Hotwire integration
-                 [--skip-jbuilder], [--no-skip-jbuilder]                # Skip jbuilder gem
-  -T,            [--skip-test], [--no-skip-test]                        # Skip test files
-                 [--skip-system-test], [--no-skip-system-test]          # Skip system test files
-                 [--skip-bootsnap], [--no-skip-bootsnap]                # Skip bootsnap gem
-                 [--skip-dev-gems], [--no-skip-dev-gems]                # Skip development gems (e.g., web-console)
-                 [--dev], [--no-dev]                                    # Set up the application with Gemfile pointing to your Rails checkout
-                 [--edge], [--no-edge]                                  # Set up the application with a Gemfile pointing to the 7-1-stable branch on the Rails repository
-  --master,      [--main], [--no-main]                                  # Set up the application with Gemfile pointing to Rails repository main branch
-                 [--rc=RC]                                              # Path to file containing extra configuration options for rails command
-                 [--no-rc]                                              # Skip loading of extra configuration options from .railsrc file
-                 [--api], [--no-api]                                    # Preconfigure smaller stack for API only apps
-                                                                        # Default: false
-                 [--minimal], [--no-minimal]                            # Preconfigure a minimal rails app
-  -j, --js,      [--javascript=JAVASCRIPT]                              # Choose JavaScript approach [options: importmap (default), bun, webpack, esbuild, rollup]
-                                                                        # Default: importmap
-  -c,            [--css=CSS]                                            # Choose CSS processor [options: tailwind, bootstrap, bulma, postcss, sass] check https://github.com/rails/cssbundling-rails for more options
-  -B,            [--skip-bundle], [--no-skip-bundle]                    # Don't run bundle install
-                 [--skip-decrypted-diffs], [--no-skip-decrypted-diffs]  # Don't configure git to show decrypted diffs of encrypted credentials
-
-Runtime options:
-  -f, [--force]                    # Overwrite files that already exist
-  -p, [--pretend], [--no-pretend]  # Run but do not make any changes
-  -q, [--quiet], [--no-quiet]      # Suppress status output
-  -s, [--skip], [--no-skip]        # Skip files that already exist
-
-Rails options:
-  -h, [--help], [--no-help]        # Show this help message and quit
-  -v, [--version], [--no-version]  # Show Rails version number and quit
-
-Description:
-    The `rails new` command creates a new Rails application with a default
-    directory structure and configuration at the path you specify.
-
-    You can specify extra command-line arguments to be used every time
-    `rails new` runs in the .railsrc configuration file in your home directory,
-    or in $XDG_CONFIG_HOME/rails/railsrc if XDG_CONFIG_HOME is set.
-
-    Note that the arguments specified in the .railsrc file don't affect the
-    default values shown above in this help message.
-
-    You can specify which version to use when creating a new rails application 
-    using `rails _<version>_ new`.
-
-Examples:
-    `rails new ~/Code/Ruby/weblog`
-
-    This generates a new Rails app in ~/Code/Ruby/weblog.
-
-    `rails _<version>_ new weblog`
-
-    This generates a new Rails app with the provided version in ./weblog.
-
-    `rails new weblog --api`
-
-    This generates a new Rails app in API mode in ./weblog.
-
-    `rails new weblog --skip-action-mailer`
-
-    This generates a new Rails app without Action Mailer in ./weblog.
-    Any part of Rails can be skipped during app generation.
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h- ttails    t  rrails -p[?2004l
-Usage:
-  rails new APP_PATH [options]
-
-Options:
-                 [--skip-namespace], [--no-skip-namespace]              # Skip namespace (affects only isolated engines)
-                                                                        # Default: false
-                 [--skip-collision-check], [--no-skip-collision-check]  # Skip collision check
-                                                                        # Default: false
-  -r,            [--ruby=PATH]                                          # Path to the Ruby binary of your choice
-                                                                        # Default: /Users/kara/.rubies/ruby-3.1.3/bin/ruby
-  -n,            [--name=NAME]                                          # Name of the app
-  -m,            [--template=TEMPLATE]                                  # Path to some application template (can be a filesystem path or URL)
-  -d,            [--database=DATABASE]                                  # Preconfigure for selected database (options: mysql/trilogy/postgresql/sqlite3/oracle/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
-                                                                        # Default: sqlite3
-  -G,            [--skip-git], [--no-skip-git]                          # Skip git init, .gitignore and .gitattributes
-                 [--skip-docker], [--no-skip-docker]                    # Skip Dockerfile, .dockerignore and bin/docker-entrypoint
-                 [--skip-keeps], [--no-skip-keeps]                      # Skip source control .keep files
-  -M,            [--skip-action-mailer], [--no-skip-action-mailer]      # Skip Action Mailer files
-                 [--skip-action-mailbox], [--no-skip-action-mailbox]    # Skip Action Mailbox gem
-                 [--skip-action-text], [--no-skip-action-text]          # Skip Action Text gem
-  -O,            [--skip-active-record], [--no-skip-active-record]      # Skip Active Record files
-                 [--skip-active-job], [--no-skip-active-job]            # Skip Active Job
-                 [--skip-active-storage], [--no-skip-active-storage]    # Skip Active Storage files
-  -C,            [--skip-action-cable], [--no-skip-action-cable]        # Skip Action Cable files
-  -A,            [--skip-asset-pipeline], [--no-skip-asset-pipeline]    # Indicates when to generate skip asset pipeline
-  -a,            [--asset-pipeline=ASSET_PIPELINE]                      # Choose your asset pipeline [options: sprockets (default), propshaft]
-                                                                        # Default: sprockets
-  -J, --skip-js, [--skip-javascript], [--no-skip-javascript]            # Skip JavaScript files
-                 [--skip-hotwire], [--no-skip-hotwire]                  # Skip Hotwire integration
-                 [--skip-jbuilder], [--no-skip-jbuilder]                # Skip jbuilder gem
-  -T,            [--skip-test], [--no-skip-test]                        # Skip test files
-                 [--skip-system-test], [--no-skip-system-test]          # Skip system test files
-                 [--skip-bootsnap], [--no-skip-bootsnap]                # Skip bootsnap gem
-                 [--skip-dev-gems], [--no-skip-dev-gems]                # Skip development gems (e.g., web-console)
-                 [--dev], [--no-dev]                                    # Set up the application with Gemfile pointing to your Rails checkout
-                 [--edge], [--no-edge]                                  # Set up the application with a Gemfile pointing to the 7-1-stable branch on the Rails repository
-  --master,      [--main], [--no-main]                                  # Set up the application with Gemfile pointing to Rails repository main branch
-                 [--rc=RC]                                              # Path to file containing extra configuration options for rails command
-                 [--no-rc]                                              # Skip loading of extra configuration options from .railsrc file
-                 [--api], [--no-api]                                    # Preconfigure smaller stack for API only apps
-                                                                        # Default: false
-                 [--minimal], [--no-minimal]                            # Preconfigure a minimal rails app
-  -j, --js,      [--javascript=JAVASCRIPT]                              # Choose JavaScript approach [options: importmap (default), bun, webpack, esbuild, rollup]
-                                                                        # Default: importmap
-  -c,            [--css=CSS]                                            # Choose CSS processor [options: tailwind, bootstrap, bulma, postcss, sass] check https://github.com/rails/cssbundling-rails for more options
-  -B,            [--skip-bundle], [--no-skip-bundle]                    # Don't run bundle install
-                 [--skip-decrypted-diffs], [--no-skip-decrypted-diffs]  # Don't configure git to show decrypted diffs of encrypted credentials
-
-Runtime options:
-  -f, [--force]                    # Overwrite files that already exist
-  -p, [--pretend], [--no-pretend]  # Run but do not make any changes
-  -q, [--quiet], [--no-quiet]      # Suppress status output
-  -s, [--skip], [--no-skip]        # Skip files that already exist
-
-Rails options:
-  -h, [--help], [--no-help]        # Show this help message and quit
-  -v, [--version], [--no-version]  # Show Rails version number and quit
-
-Description:
-    The `rails new` command creates a new Rails application with a default
-    directory structure and configuration at the path you specify.
-
-    You can specify extra command-line arguments to be used every time
-    `rails new` runs in the .railsrc configuration file in your home directory,
-    or in $XDG_CONFIG_HOME/rails/railsrc if XDG_CONFIG_HOME is set.
-
-    Note that the arguments specified in the .railsrc file don't affect the
-    default values shown above in this help message.
-
-    You can specify which version to use when creating a new rails application 
-    using `rails _<version>_ new`.
-
-Examples:
-    `rails new ~/Code/Ruby/weblog`
-
-    This generates a new Rails app in ~/Code/Ruby/weblog.
-
-    `rails _<version>_ new weblog`
-
-    This generates a new Rails app with the provided version in ./weblog.
-
-    `rails new weblog --api`
-
-    This generates a new Rails app in API mode in ./weblog.
-
-    `rails new weblog --skip-action-mailer`
-
-    This generates a new Rails app without Action Mailer in ./weblog.
-    Any part of Rails can be skipped during app generation.
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hssudo apt update[?2004l
-Password:
-The operation couldn’t be completed. Unable to locate a Java Runtime.
-Please visit http://www.java.com for information on installing Java.
-
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hiinstall java[?2004l
-usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
-               [-o owner] file1 file2
-       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
-               [-o owner] file1 ... fileN directory
-       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h[7msudo apt install sqlite3 libsqlite3-dev[27m[39D[27ms[27mu[27md[27mo[27m [27ma[27mp[27mt[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27ms[27mq[27ml[27mi[27mt[27me[27m3[27m [27ml[27mi[27mb[27ms[27mq[27ml[27mi[27mt[27me[27m3[27m-[27md[27me[27mv[?2004l
-The operation couldn’t be completed. Unable to locate a Java Runtime.
-Please visit http://www.java.com for information on installing Java.
-
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h[7m$>mate .[27m[8D[27m$[27m>[27mm[27ma[27mt[27me[27m [27m.[?2004l
-zsh: command not found: $
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h>>mate[?2004l
-^[[C^[[C        ^C
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails s\[?2004l
-[0m[27m[24m[J> [K[?2004hç [?2004l
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails s[?2004l
-Usage:
-  rails new APP_PATH [options]
-
-Options:
-                 [--skip-namespace], [--no-skip-namespace]              # Skip namespace (affects only isolated engines)
-                                                                        # Default: false
-                 [--skip-collision-check], [--no-skip-collision-check]  # Skip collision check
-                                                                        # Default: false
-  -r,            [--ruby=PATH]                                          # Path to the Ruby binary of your choice
-                                                                        # Default: /Users/kara/.rubies/ruby-3.1.3/bin/ruby
-  -n,            [--name=NAME]                                          # Name of the app
-  -m,            [--template=TEMPLATE]                                  # Path to some application template (can be a filesystem path or URL)
-  -d,            [--database=DATABASE]                                  # Preconfigure for selected database (options: mysql/trilogy/postgresql/sqlite3/oracle/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
-                                                                        # Default: sqlite3
-  -G,            [--skip-git], [--no-skip-git]                          # Skip git init, .gitignore and .gitattributes
-                 [--skip-docker], [--no-skip-docker]                    # Skip Dockerfile, .dockerignore and bin/docker-entrypoint
-                 [--skip-keeps], [--no-skip-keeps]                      # Skip source control .keep files
-  -M,            [--skip-action-mailer], [--no-skip-action-mailer]      # Skip Action Mailer files
-                 [--skip-action-mailbox], [--no-skip-action-mailbox]    # Skip Action Mailbox gem
-                 [--skip-action-text], [--no-skip-action-text]          # Skip Action Text gem
-  -O,            [--skip-active-record], [--no-skip-active-record]      # Skip Active Record files
-                 [--skip-active-job], [--no-skip-active-job]            # Skip Active Job
-                 [--skip-active-storage], [--no-skip-active-storage]    # Skip Active Storage files
-  -C,            [--skip-action-cable], [--no-skip-action-cable]        # Skip Action Cable files
-  -A,            [--skip-asset-pipeline], [--no-skip-asset-pipeline]    # Indicates when to generate skip asset pipeline
-  -a,            [--asset-pipeline=ASSET_PIPELINE]                      # Choose your asset pipeline [options: sprockets (default), propshaft]
-                                                                        # Default: sprockets
-  -J, --skip-js, [--skip-javascript], [--no-skip-javascript]            # Skip JavaScript files
-                 [--skip-hotwire], [--no-skip-hotwire]                  # Skip Hotwire integration
-                 [--skip-jbuilder], [--no-skip-jbuilder]                # Skip jbuilder gem
-  -T,            [--skip-test], [--no-skip-test]                        # Skip test files
-                 [--skip-system-test], [--no-skip-system-test]          # Skip system test files
-                 [--skip-bootsnap], [--no-skip-bootsnap]                # Skip bootsnap gem
-                 [--skip-dev-gems], [--no-skip-dev-gems]                # Skip development gems (e.g., web-console)
-                 [--dev], [--no-dev]                                    # Set up the application with Gemfile pointing to your Rails checkout
-                 [--edge], [--no-edge]                                  # Set up the application with a Gemfile pointing to the 7-1-stable branch on the Rails repository
-  --master,      [--main], [--no-main]                                  # Set up the application with Gemfile pointing to Rails repository main branch
-                 [--rc=RC]                                              # Path to file containing extra configuration options for rails command
-                 [--no-rc]                                              # Skip loading of extra configuration options from .railsrc file
-                 [--api], [--no-api]                                    # Preconfigure smaller stack for API only apps
-                                                                        # Default: false
-                 [--minimal], [--no-minimal]                            # Preconfigure a minimal rails app
-  -j, --js,      [--javascript=JAVASCRIPT]                              # Choose JavaScript approach [options: importmap (default), bun, webpack, esbuild, rollup]
-                                                                        # Default: importmap
-  -c,            [--css=CSS]                                            # Choose CSS processor [options: tailwind, bootstrap, bulma, postcss, sass] check https://github.com/rails/cssbundling-rails for more options
-  -B,            [--skip-bundle], [--no-skip-bundle]                    # Don't run bundle install
-                 [--skip-decrypted-diffs], [--no-skip-decrypted-diffs]  # Don't configure git to show decrypted diffs of encrypted credentials
-
-Runtime options:
-  -f, [--force]                    # Overwrite files that already exist
-  -p, [--pretend], [--no-pretend]  # Run but do not make any changes
-  -q, [--quiet], [--no-quiet]      # Suppress status output
-  -s, [--skip], [--no-skip]        # Skip files that already exist
-
-Rails options:
-  -h, [--help], [--no-help]        # Show this help message and quit
-  -v, [--version], [--no-version]  # Show Rails version number and quit
-
-Description:
-    The `rails new` command creates a new Rails application with a default
-    directory structure and configuration at the path you specify.
-
-    You can specify extra command-line arguments to be used every time
-    `rails new` runs in the .railsrc configuration file in your home directory,
-    or in $XDG_CONFIG_HOME/rails/railsrc if XDG_CONFIG_HOME is set.
-
-    Note that the arguments specified in the .railsrc file don't affect the
-    default values shown above in this help message.
-
-    You can specify which version to use when creating a new rails application 
-    using `rails _<version>_ new`.
-
-Examples:
-    `rails new ~/Code/Ruby/weblog`
-
-    This generates a new Rails app in ~/Code/Ruby/weblog.
-
-    `rails _<version>_ new weblog`
-
-    This generates a new Rails app with the provided version in ./weblog.
-
-    `rails new weblog --api`
-
-    This generates a new Rails app in API mode in ./weblog.
-
-    `rails new weblog --skip-action-mailer`
-
-    This generates a new Rails app without Action Mailer in ./weblog.
-    Any part of Rails can be skipped during app generation.
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004hrrails[?2004l
-Usage:
-  rails COMMAND [options]
-
-You must specify a command:
-
-  new          Create a new Rails application. "rails new my_app" creates a
-               new application called MyApp in "./my_app"
-  plugin new   Create a new Rails railtie or engine
-
-All commands can be run with -h (or --help) for more information.
-
-Inside a Rails application directory, some common commands are:
-
-  console      Start the Rails console
-  server       Start the Rails server
-  test         Run tests except system tests
-[1m[7m%[27m[1m[0m                                                                                                                         ]7;file://Karas-MacBook-Air.local/Users/kara/documents/github/taykim34.github.io[0m[27m[24m[Jkara@Karas-MacBook-Air taykim34.github.io % [K[?2004h

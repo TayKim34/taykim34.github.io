@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: A Simple Nerd With Too Many Hobbies
+subtitle: Who am I?
 ---
 
 Hi, I’m Taylor! I have been an artist and working freelance designer for years. I am passionate about art, design, and problem-solving. I often think about how designs are implemented into different everyday items, apps, and media we interact with. It is important to me to ensure that the product I am working with has easy and clean designs so users can seamlessly use it. Being a user-centered UX Designer, I stand behind the principle that products should be intuitive and accessible to everyone wanting to use them.
