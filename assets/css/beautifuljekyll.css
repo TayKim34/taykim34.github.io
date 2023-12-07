@@ -1,3 +1,4 @@
+@charset "UTF-8
 ---
 layout: null
 ---
@@ -13,7 +14,7 @@ html {
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{site.text-col | default: "#404040"}};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
   {% if site.page-img %}
@@ -89,7 +90,7 @@ hr.small {
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background-color: {{ site.hover-col | default: "#0085A1" }};
+  background-color: {{ site.hover-col | default: "#0085A1"}}
 }
 ::selection {
   color: #fff;
@@ -345,8 +346,8 @@ img {
   {% unless site.round-avatar == false %}
     border-radius: 50%;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8);
-    -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
+    webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8);
+    moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
   {% endunless %}
 }
 .navbar-custom .avatar-container .avatar-img {
