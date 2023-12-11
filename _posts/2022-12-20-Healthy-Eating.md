@@ -233,7 +233,7 @@ To get feedback on my low-fidelity prototype, I conducted a remote moderated usa
 
 ### Mock Ups
 ![Healthy Eating Mock Ups](/assets/img/h-e-mockups.png)
-<span class="caption">To make the app feel more like it was being viewed on a phone, I added a status bar to all the screens. This helped me notice that I had more space in my top bar to include the search bar. This allowed me to remove the search page from the side menu, and instead had the filters be accessible after users type something into the search bar.
+<span class="caption">To make the app feel more like it was being viewed on a phone, I added a status bar to all the screens. This helped me notice that I had more space in my top bar to include the search bar. This allowed me to remove the search page from the side menu, and instead have the filters be accessible after users type something into the search bar.
 To determine my color palette, I used a random palette generator and focused on colors that would read as “fresh” to users, so my main colors were greens and a light yellow, like that of vegetables.</span>
 <br>
 
@@ -269,7 +269,7 @@ There is currently only a tablet and desktop website design.
 
 My process to translate this mobile app to a website for a larger screen was a bit of a challenge initially, as the recipe cards did not look right on a larger screen and in multiple columns. This is why I decided to create something similar to the cards, but in more of a grid layout without borders.
 
-Will the extra space, I was able to include some more information as well. This allowed me to include the website logo, name, and a way to access filters without typing into the search bar.
+With the extra space, I was able to include some more information as well. This allowed me to include the website logo, name, and a way to access filters without typing into the search bar.
 
 Experience how this website works on [Tablet](https://www.figma.com/proto/0l6ep0JM4RmVudx2TM3vyr/Arcade-Support?node-id=162-1808&page-id=162%3A1807&scaling=scale-down&starting-point-node-id=162%3A1808&viewport=577%2C591%2C0.16) or [Desktop](https://www.figma.com/proto/0l6ep0JM4RmVudx2TM3vyr/Arcade-Support?node-id=667-4981&page-id=667%3A4980&scaling=contain&starting-point-node-id=667%3A4981&viewport=838%2C550%2C0.15).
 

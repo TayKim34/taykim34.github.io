@@ -48,11 +48,11 @@ If the user has an easy way to communicate any issues regarding the arcade machi
 To understand the users that would face such a problem, I developed a couple of personas.
 
 <img src="/assets/img/a-s-persona1.png" alt="Gamer Persona Example" style="box-shadow: 5px 5px 10px grey;">
-<span class="caption">A passionate gamer that used arcade time as decompressing time.</span>
+<span class="caption">A passionate gamer that uses arcade time as decompressing time.</span>
 <br>
 
 <img src="/assets/img/a-s-persona2.png" alt="Mother Persona Example" style="box-shadow: 5px 5px 10px grey;">
-<span class="caption">A caring mother wants their kids to play in a working and clean environment.</span>
+<span class="caption">A caring mother who wants her kids to play in a working and clean environment.</span>
 <br>
 
 ### Journey Mapping
@@ -240,10 +240,10 @@ Once images were added and the background darkened, it appeared some sections we
 ### High Fidelity Prototype
 <img align="right" width="250" src="/assets/img/a-s-hifi-prototype.gif" alt="Arcade Support High Fidelity Prototype">
 
-<br>Viewing the prototype helps me see if the ideas worked 
+<br>Viewing the prototype helped me see if the ideas worked 
 <br>as intended. The main thing that helped a lot was having 
-<br>the clicked category a different color from the rest of 
-<br>the categories allowed the user to know exactly what 
+<br>the selected category a different color from the rest of 
+<br>the categories, allowing the user to know exactly what 
 <br>page they were on. I used blue as the primary color and 
 <br>pink as the accent color. I decided this because pink 
 <br>is a bit harder on the eyes, so I wanted to minimize
