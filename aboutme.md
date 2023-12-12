@@ -10,4 +10,4 @@ Creativity is in my veins. Every hobby I have is a way to have a creative outlet
 
 I can’t wait to see the new challenges I can face with upcoming projects. It is exciting to think about applying my skills and learning new skills to problem solve and make sure the user has the best experience they can with any product they want to use.
 
-To learn about my work experience, check out my [resume](https://docs.google.com/document/d/1PxjKVzmLyfAW7lc-2q61HYKUaDg6swyYk1qVGfFHAXw/edit?pli=1)!
+To learn about my work experience, check out my [resume](/assets/img/Resume.pdf)!
